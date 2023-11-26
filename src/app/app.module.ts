@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HListTeamsComponent } from './h-list-teams/h-list-teams.component';
 import { FormsModule } from '@angular/forms';
+import { DataLoadServiceService } from './data-load-service.service';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule, FormsModule
   ],
-  providers: [],
+  providers: [DataLoadServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
