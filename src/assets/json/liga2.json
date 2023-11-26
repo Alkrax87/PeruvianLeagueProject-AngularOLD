@@ -74,7 +74,7 @@
       "banner": "./assets/images/liga-2/estadio-ciudad-de-cumana.png",
       "url": "",
       "stadium": "Estadio Ciudad de Cumaná",
-      "color1": "#E9D9A9",
+      "color1": "#bead7a",
       "color2": "#333333",
       "dt": [
         {
@@ -236,11 +236,10 @@
       "name": "Juan Pablo II",
       "image": "./assets/images/liga-2/jup.png",
       "alt": "JUP-logo",
-      "banner": "",
+      "banner": "./assets/images/liga-2/estadio-cesar-flores-marigorda.png",
       "url": "",
-      "stadium": "Estadio de la Juventud",
+      "stadium": "Estadio César Flores Marigorda",
       "color1": "#FA9000",
-      "color2": "#333333",
       "dt": [
         {
           "name": "Por Definir",

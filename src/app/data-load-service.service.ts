@@ -4,11 +4,12 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class DataLoadServiceService {
-  // Iterador de JSON
-  division: number = 1;
+
+  division:any;
 
   // Cargar los datos del JSON
-  loadData() {
+  loadData( division: number) {
+    this.division=division;
     return fetch('./assets/json/' + this.getJsonFileName() + '.json').then(response => response.json()).then(data => data || null).catch(error => {
       console.error('Error al cargar el archivo JSON:', error);
       throw error;

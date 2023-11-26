@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { DataLoadServiceService } from '../data-load-service.service';
 
 @Component({
-  selector: 'app-h-list-teams',
-  templateUrl: './h-list-teams.component.html',
-  styleUrls: ['./h-list-teams.component.css']
+  selector: 'app-liga2-clubes',
+  templateUrl: './liga2-clubes.component.html',
+  styleUrls: ['./liga2-clubes.component.css']
 })
-export class HListTeamsComponent implements OnInit {
+export class Liga2ClubesComponent {
 
   constructor(private dataLoadService: DataLoadServiceService){}
 
@@ -17,10 +17,11 @@ export class HListTeamsComponent implements OnInit {
   }
 
   loadData() {
-    this.dataLoadService.loadData(1).then((data: any) => {
+    this.dataLoadService.loadData(2).then((data: any) => {
       this.data = data;
     }).catch(error => {
       console.error('Error al cargar datos en el componente:', error);
     });
   }
+
 }

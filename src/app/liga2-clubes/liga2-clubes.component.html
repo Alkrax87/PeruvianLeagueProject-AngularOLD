@@ -1,0 +1,85 @@
+<!-- Title D-->
+<div class="container-fluid background hide-title-D">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-10">
+      <h1><b>Clubes</b></h1>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+<!-- Title M -->
+<div class="container-fluid text-center background hide-title-M">
+  <h1><b>Clubes</b></h1>
+</div>
+<!-- Description D -->
+<div class="container-fluid bg-light hide-description-D">
+  <div class="row">
+    <div class="col-3 text-center">
+      <p class="notes">Temporada</p>
+      <b class="notes2">{{ data.Info.temporada }}</b>
+    </div>
+    <div class="col-3 text-center">
+      <p class="notes">Equipos</p>
+      <b class="notes2">{{ data.Info.equipos }}</b>
+    </div>
+    <div class="col-3 text-center">
+      <p class="notes">Categoría</p>
+      <p class="notes2"><b>2<sup>ra</sup> División</b></p>
+    </div>
+    <div class="col-3 text-end">
+      <img src="./assets/images/liga-2/liga2fpf.png" alt="liga2logo" height="80px;">
+    </div>
+  </div>
+</div>
+<!-- Description M -->
+<div class="container-fluid bg-light text-center hide-description-M">
+  <div class="row">
+    <div class="col-4">
+      <p class="notes">Temporada</p>
+      <b class="notes2">{{ data.Info.temporada }}</b>
+    </div>
+    <div class="col-4">
+      <p class="notes">Equipos</p>
+      <b class="notes2">{{ data.Info.equipos }}</b>
+    </div>
+    <div class="col-4">
+      <p class="notes">Categoría</p>
+      <p class="notes2 nospace"><b>1<sup>ra</sup> División</b></p>
+    </div>
+    <div class="col-12">
+      <img src="./assets/images/liga-2/liga2fpf.png" alt="liga2logo" height="60px;">
+    </div>
+  </div>
+</div>
+<!-- Divisor -->
+<div class="container-fluid bg-light divisor-type-1 shadow-lg"></div>
+<!-- Teams -->
+<div class="container-fluid my-4">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-10">
+      <ul id="teams-grid" *ngIf="data" class="row">
+        <div *ngFor="let item of data.Teams" class="col-lg-3 col-md-6 py-3">
+          <a [href]="item.url" class="card-item">
+            <div class="item-banner club-banner-top">
+              <img [src]="item.banner" width="100%" alt="Stadium-Logo">
+            </div>
+            <div class="item-circle text-center">
+              <img [src]="item.image" [alt]="item.alt" class="item-image">
+            </div>
+            <div class="item-info text-center" [style.backgroundColor]="item.color1">
+              <div class="card-content" [style.color]="item.color2">
+                <p class="club-name"><b>{{ item.name }}</b></p>
+                <p class="club-stadium">{{ item.stadium }}</p>
+                <hr class="card-divider">
+                <span class="perfil"><b>Perfil del Club </b></span><i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </ul>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>

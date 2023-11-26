@@ -1,0 +1,134 @@
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+a {
+  text-decoration:none;
+  color: #ffff;
+}
+/* Ttitle */
+.background{
+  background: rgb(89, 6, 6);
+  background: linear-gradient(90deg, rgba(89, 6, 6, 1) 7%, rgba(153, 2, 2, 1) 30%, rgba(19, 0, 0, 1) 98%);
+  height: 250px;
+  padding-top: 80px;
+}
+.background h1 {
+  font-size: 73px;
+  color: #fff;
+}
+/* Description */
+.notes {
+  padding-top: 20px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-style: italic;
+}
+.notes2 {
+  font-size: 16px;
+  white-space: nowrap;
+}
+@media screen and (max-width: 991px) {
+  .hide-title-D {
+    display: none;
+  }
+  .hide-description-D {
+    display: none;
+  }
+}
+@media screen and (min-width: 991px) {
+  .hide-title-M {
+    display: none;
+  }
+  .hide-description-M {
+    display: none;
+  }
+}
+/* Divisor */
+.divisor-type-1 {
+  height: 30px;
+  background: rgb(89, 6, 6);
+  background: linear-gradient(90deg, rgba(89, 6, 6, 1) 7%, rgba(153, 2, 2, 1) 30%, rgba(19, 0, 0, 1) 98%);
+}
+/* Card Item */
+.item-image {
+  height: 70px;
+  width: 70px;
+}
+.card-item .item-banner {
+  overflow: hidden;
+  height: 180px;
+  transition: all 2s ease;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card-item .item-banner img {
+  width: 100%;
+  height: 100%;
+}
+.card-item img {
+  transition: all 2s ease;
+}
+.card-item:hover img {
+  transform: scale(1.1);
+}
+.item-circle {
+  position: relative;
+  padding-top: 20px;
+  width: 110px;
+  height: 110px;
+  background: #fff;
+  border-radius: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.item-info {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.item-info .club-name {
+  font-size: 18px;
+  margin: 0px;
+}
+.item-info .club-stadium {
+  font-size: 13px;
+  margin: 0px;
+}
+.card-content {
+  margin-top: -120px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.card-divider {
+  background: #fff;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-left: 10%;
+  width: 80%;
+  opacity: 100%;
+}
+
+
+.card-item i {
+  transition: transform 0.5s ease; /* Agrega una transición */
+}
+
+.card-item:hover i {
+  animation: bounce 3s infinite ease;
+}
+
+/* Animacion Banner */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    transform: translateX(100%);
+  }
+}
+
+
+

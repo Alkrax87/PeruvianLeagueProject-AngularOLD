@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { DataLoadServiceService } from '../data-load-service.service';
 
 @Component({
-  selector: 'app-h-list-teams',
-  templateUrl: './h-list-teams.component.html',
-  styleUrls: ['./h-list-teams.component.css']
+  selector: 'app-liga1-clubes',
+  templateUrl: './liga1-clubes.component.html',
+  styleUrls: ['./liga1-clubes.component.css']
 })
-export class HListTeamsComponent implements OnInit {
+export class Liga1ClubesComponent {
 
   constructor(private dataLoadService: DataLoadServiceService){}
 

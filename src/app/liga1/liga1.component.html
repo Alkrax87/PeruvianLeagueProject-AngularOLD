@@ -1,0 +1,41 @@
+<!-- D -->
+<div class="container-fluid bg-light nav-options-bar hide-options-D">
+  <div class="row">
+    <div *ngIf="options.clubes; else itemD1" class="col-lg-1 col-md-2 col-sm-4 p-0">
+      <a [routerLink]="['/liga1/clubes']"><div class="nav-options-item nav-options-item-selected">Clubes</div></a>
+    </div>
+    <ng-template #itemD1>
+      <div class="col-lg-1 col-md-2 col-sm-4 p-0">
+        <a [routerLink]="['/liga1/clubes']"><div class="nav-options-item">Clubes</div></a>
+      </div>
+    </ng-template>
+    <div *ngIf="options.tabla; else itemD2" class="col-lg-1 col-md-2 col-sm-4 p-0">
+      <a [routerLink]="['/liga1/tabla']"><div class="nav-options-item nav-options-item-selected">Tabla</div></a>
+    </div>
+    <ng-template #itemD2>
+      <div class="col-lg-1 col-md-2 col-sm-4 p-0">
+        <a [routerLink]="['/liga1/tabla']"><div class="nav-options-item">Tabla</div></a>
+      </div>
+    </ng-template>
+    <div *ngIf="options.tecnicos; else itemD3" class="col-lg-1 col-md-2 col-sm-4 p-0">
+      <a [routerLink]="['/liga1/tecnicos']"><div class="nav-options-item nav-options-item-selected">Técnicos</div></a>
+    </div>
+    <ng-template #itemD3>
+      <div class="col-lg-1 col-md-2 col-sm-4 p-0">
+        <a [routerLink]="['/liga1/tecnicos']"><div class="nav-options-item">Técnicos</div></a>
+      </div>
+    </ng-template>
+  </div>
+</div>
+<!-- M -->
+<div class="dropdown hide-options-M">
+  <button class="btn bg-light dropdown-option w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Liga 1
+  </button>
+  <ul class="dropdown-menu bg-light w-100">
+    <li *ngIf="!options.clubes"><a class="dropdown-item text-center dropdown-option-item" [routerLink]="['/liga1/clubes']">Clubes</a></li>
+    <li *ngIf="!options.tabla"><a class="dropdown-item text-center dropdown-option-item" [routerLink]="['/liga1/tabla']">Tabla</a></li>
+    <li *ngIf="!options.tecnicos"><a class="dropdown-item text-center dropdown-option-item" [routerLink]="['/liga1/tecnicos']">Técnicos</a></li>
+  </ul>
+</div>
+<router-outlet></router-outlet>
