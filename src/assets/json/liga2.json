@@ -1,0 +1,516 @@
+{
+  "Info": {
+    "temporada": 2024,
+    "equipos": 18,
+    "apertura": true,
+    "clausura": false,
+    "fechaApertura": "1",
+    "fechaClausura": "1",
+    "t4tos": true,
+    "semifinal": true,
+    "final": true
+  },
+  "Teams": [
+    {
+      "id": "Team1",
+      "name": "AD Cantolao",
+      "image": "./assets/images/liga-2/can.png",
+      "alt": "CAN-logo",
+      "banner": "./assets/images/liga-2/estadio-miguel-grau-del-callao.png",
+      "url": "",
+      "stadium": "Estadio Miguel Grau del Callao",
+      "color1": "#FEF100",
+      "color2": "#333333",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team2",
+      "name": "ADA",
+      "image": "./assets/images/liga-2/ada.png",
+      "alt": "ADA-logo",
+      "banner": "./assets/images/liga-2/estadio-victor-montoya-segura.png",
+      "url": "",
+      "stadium": "Estadio Miguel Grau del Callao",
+      "color1": "#008831",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team3",
+      "name": "Alianza Universidad",
+      "image": "./assets/images/liga-2/auh.png",
+      "alt": "AUH-logo",
+      "banner": "./assets/images/liga-2/estadio-heraclio-tapía.png",
+      "url": "",
+      "stadium": "Estadio Heráclio Tapia",
+      "color1": "#3038A9",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team4",
+      "name": "Ayacucho FC",
+      "image": "./assets/images/liga-2/aya.png",
+      "alt": "AYA-logo",
+      "banner": "./assets/images/liga-2/estadio-ciudad-de-cumana.png",
+      "url": "",
+      "stadium": "Estadio Ciudad de Cumaná",
+      "color1": "#E9D9A9",
+      "color2": "#333333",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team5",
+      "name": "Binacional",
+      "image": "./assets/images/liga-2/bin.png",
+      "alt": "BIN-logo",
+      "banner": "./assets/images/liga-2/estadio-guillermo-briceno.png",
+      "url": "",
+      "stadium": "Estadio Guillermo Briceño",
+      "color1": "#84DCEC",
+      "color2": "#333333",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team6",
+      "name": "Carlos Stein",
+      "image": "./assets/images/liga-2/cst.png",
+      "alt": "CST-logo",
+      "banner": "./assets/images/liga-2/estadio-carlos-samame-caceres.png",
+      "url": "",
+      "stadium": "Estadio Carlos Samamé Cáceres",
+      "color1": "#FEFD00",
+      "color2": "#333333",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team7",
+      "name": "Comerciantes FC",
+      "image": "./assets/images/liga-2/adc.png",
+      "alt": "ADC-logo",
+      "banner": "./assets/images/liga-2/estadio-max-augustin.png",
+      "url": "",
+      "stadium": "Estadio Max Augustín",
+      "color1": "#00AF00",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team8",
+      "name": "Deportivo Coopsol",
+      "image": "./assets/images/liga-2/coo.png",
+      "alt": "COO-logo",
+      "banner": "./assets/images/liga-2/estadio-romulo-shaw-cisneros.png",
+      "url": "",
+      "stadium": "Estadio Rómulo Shaw Cisneros",
+      "color1": "#F5B108",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team9",
+      "name": "Deportivo Municipal",
+      "image": "./assets/images/liga-2/mun.png",
+      "alt": "MUN-logo",
+      "banner": "./assets/images/liga-2/estadio-ivan-elias-moreno.png",
+      "url": "",
+      "stadium": "Estadio Iván Elías Moreno",
+      "color1": "#003083",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team10",
+      "name": "Deportivo Llacuabamba",
+      "image": "./assets/images/liga-2/dll.png",
+      "alt": "DLL-logo",
+      "banner": "./assets/images/liga-2/estadio-comunal-llacuabamba.png",
+      "url": "",
+      "stadium": "Estadio Comunal Llacuabamba",
+      "color1": "#00B5CE",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team11",
+      "name": "FC San Marcos",
+      "image": "./assets/images/liga-2/sma.png",
+      "alt": "SMA-logo",
+      "banner": "./assets/images/liga-2/estadio-rosas-pampa.png",
+      "url": "",
+      "stadium": "Estadio Rosas Pampa",
+      "color1": "#025B3B",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team12",
+      "name": "Juan Aurich",
+      "image": "./assets/images/liga-2/jua.png",
+      "alt": "JUA-logo",
+      "banner": "./assets/images/liga-2/estadio-cesar-flores-marigorda.png",
+      "url": "",
+      "stadium": "Estadio César Flores Marigorda",
+      "color1": "#FF111C",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team13",
+      "name": "Juan Pablo II",
+      "image": "./assets/images/liga-2/jup.png",
+      "alt": "JUP-logo",
+      "banner": "",
+      "url": "",
+      "stadium": "Estadio de la Juventud",
+      "color1": "#FA9000",
+      "color2": "#333333",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team14",
+      "name": "Pirata FC",
+      "image": "./assets/images/liga-2/pir.png",
+      "alt": "PIR-logo",
+      "banner": "./assets/images/liga-2/estadio-francisco-mendoza-pizarro.png",
+      "url": "",
+      "stadium": "Estadio Francisco Mendoza Pizarro",
+      "color1": "#007E00",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team15",
+      "name": "San Martín",
+      "image": "./assets/images/liga-2/usm.png",
+      "alt": "USM-logo",
+      "banner": "./assets/images/liga-2/estadio-alberto-gallardo.png",
+      "url": "",
+      "stadium": "Estadio Alberto Gallardo",
+      "color1": "#282782",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team16",
+      "name": "Santos FC",
+      "image": "./assets/images/liga-2/san.png",
+      "alt": "SAN-logo",
+      "banner": "./assets/images/liga-2/estadio-municipal-de-nazca.png",
+      "url": "",
+      "stadium": "Estadio Municipal de Nazca",
+      "color1": "#325BA3",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team17",
+      "name": "UCV Moquegua",
+      "image": "./assets/images/liga-2/ucv.png",
+      "alt": "UCV-logo",
+      "banner": "./assets/images/liga-2/estadio-25-de-noviembre.png",
+      "url": "",
+      "stadium": "Estadio 25 de Noviembre",
+      "color1": "#1B294B",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    },
+    {
+      "id": "Team18",
+      "name": "Unión Huaral",
+      "image": "./assets/images/liga-2/unh.png",
+      "alt": "UNH-logo",
+      "banner": "./assets/images/liga-2/estadio-julio-lores-colan.png",
+      "url": "",
+      "stadium": "Estadio Julio Lores Colán",
+      "color1": "#EB0803",
+      "dt": [
+        {
+          "name": "Por Definir",
+          "country": "",
+          "cod": "",
+          "status" : true
+        }
+      ]
+    }
+  ],
+  "Apertura": {
+    "F1": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F2": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F3": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F4": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F5": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F6": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F7": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F8": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F9": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F10": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F11": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F12": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F13": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F14": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F15": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F16": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F17": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F18": [
+      "","","","","","","","","","","","","","","","","",""
+    ]
+  },
+  "Clausura": {
+    "F1": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F2": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F3": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F4": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F5": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F6": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F7": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F8": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F9": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F10": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F11": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F12": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F13": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F14": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F15": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F16": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F17": [
+      "","","","","","","","","","","","","","","","","",""
+    ],
+    "F18": [
+      "","","","","","","","","","","","","","","","","",""
+    ]
+  },
+  "Campeon": {
+    "status": true,
+    "name": "Comerciantes Unidos",
+    "image": "./assets/images/liga-2/cou.png",
+    "alt": "COU-logo"
+  },
+  "Cuartos": [
+    {
+        "idaA": "0",
+        "idaB": "1",
+        "vueltaA": "0",
+        "vueltaB": "3",
+        "penal":{
+          "TeamA": "",
+          "TeamB": ""
+        }
+    },
+    {
+        "idaA": "0",
+        "idaB": "1",
+        "vueltaA": "1",
+        "vueltaB": "0",
+        "penal":{
+          "TeamA": "(3)",
+          "TeamB": "(4)"
+        }
+    }
+  ],
+  "Semifinal": [
+    {
+        "idaA": "1",
+        "idaB": "1",
+        "vueltaA": "3",
+        "vueltaB": "0",
+        "penal":{
+          "TeamA": "",
+          "TeamB": ""
+        }
+    },
+    {
+        "idaA": "3",
+        "idaB": "2",
+        "vueltaA": "3",
+        "vueltaB": "1",
+        "penal":{
+          "TeamA": "",
+          "TeamB": ""
+        }
+    }
+  ],
+  "Final": {
+    "idaA": "1",
+    "idaB": "3",
+    "vueltaA": "3",
+    "vueltaB": "1",
+    "penal":{
+        "TeamA": "(3)",
+        "TeamB": "(2)"
+    }
+  }
+}
