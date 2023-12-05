@@ -10,12 +10,12 @@ export class Liga2ClubesComponent {
 
   constructor(private dataLoadService: DataLoadServiceService){}
 
-  data:any;
-
   ngOnInit() {
     this.loadData();
   }
 
+  //Cargar Data del JSON
+  data:any;
   loadData() {
     this.dataLoadService.loadData(2).then((data: any) => {
       this.data = data;
@@ -24,4 +24,12 @@ export class Liga2ClubesComponent {
     });
   }
 
+  //Efecto hover
+  hoveredItem: any;
+  onItemHover(item: any) {
+    this.hoveredItem = item;
+  }
+  onItemLeave() {
+    this.hoveredItem = null;
+  }
 }

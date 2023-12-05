@@ -18,8 +18,9 @@
       "alt": "CAN-logo",
       "banner": "./assets/images/liga-2/estadio-miguel-grau-del-callao.png",
       "url": "",
-      "stadium": "Estadio Miguel Grau del Callao",
-      "color1": "#FEF100",
+      "stadium": "Miguel Grau del Callao",
+      "stadiumColor": "#fafafa",
+      "color1": "#FDF100",
       "color2": "#333333",
       "dt": [
         {
@@ -37,8 +38,10 @@
       "alt": "ADA-logo",
       "banner": "./assets/images/liga-2/estadio-victor-montoya-segura.png",
       "url": "",
-      "stadium": "Estadio Miguel Grau del Callao",
+      "stadium": "Miguel Grau del Callao",
+      "stadiumColor": "#fafafa",
       "color1": "#008831",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -55,8 +58,10 @@
       "alt": "AUH-logo",
       "banner": "./assets/images/liga-2/estadio-heraclio-tapía.png",
       "url": "",
-      "stadium": "Estadio Heráclio Tapia",
-      "color1": "#3038A9",
+      "stadium": "Heráclio Tapia",
+      "stadiumColor": "#fafafa",
+      "color1": "#3238AA",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -73,7 +78,8 @@
       "alt": "AYA-logo",
       "banner": "./assets/images/liga-2/estadio-ciudad-de-cumana.png",
       "url": "",
-      "stadium": "Estadio Ciudad de Cumaná",
+      "stadium": "Ciudad de Cumaná",
+      "stadiumColor": "#fafafa",
       "color1": "#bead7a",
       "color2": "#333333",
       "dt": [
@@ -92,7 +98,8 @@
       "alt": "BIN-logo",
       "banner": "./assets/images/liga-2/estadio-guillermo-briceno.png",
       "url": "",
-      "stadium": "Estadio Guillermo Briceño",
+      "stadium": "Guillermo Briceño",
+      "stadiumColor": "#fafafa",
       "color1": "#84DCEC",
       "color2": "#333333",
       "dt": [
@@ -111,7 +118,8 @@
       "alt": "CST-logo",
       "banner": "./assets/images/liga-2/estadio-carlos-samame-caceres.png",
       "url": "",
-      "stadium": "Estadio Carlos Samamé Cáceres",
+      "stadium": "Carlos Samamé Cáceres",
+      "stadiumColor": "#fafafa",
       "color1": "#FEFD00",
       "color2": "#333333",
       "dt": [
@@ -130,8 +138,10 @@
       "alt": "ADC-logo",
       "banner": "./assets/images/liga-2/estadio-max-augustin.png",
       "url": "",
-      "stadium": "Estadio Max Augustín",
+      "stadium": "Max Augustín",
+      "stadiumColor": "#fafafa",
       "color1": "#00AF00",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -148,8 +158,10 @@
       "alt": "COO-logo",
       "banner": "./assets/images/liga-2/estadio-romulo-shaw-cisneros.png",
       "url": "",
-      "stadium": "Estadio Rómulo Shaw Cisneros",
+      "stadium": "Rómulo Shaw Cisneros",
+      "stadiumColor": "#fafafa",
       "color1": "#F5B108",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -166,8 +178,10 @@
       "alt": "MUN-logo",
       "banner": "./assets/images/liga-2/estadio-ivan-elias-moreno.png",
       "url": "",
-      "stadium": "Estadio Iván Elías Moreno",
+      "stadium": "Iván Elías Moreno",
+      "stadiumColor": "#fafafa",
       "color1": "#003083",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -184,8 +198,10 @@
       "alt": "DLL-logo",
       "banner": "./assets/images/liga-2/estadio-comunal-llacuabamba.png",
       "url": "",
-      "stadium": "Estadio Comunal Llacuabamba",
+      "stadium": "Comunal Llacuabamba",
+      "stadiumColor": "#fafafa",
       "color1": "#00B5CE",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -202,8 +218,10 @@
       "alt": "SMA-logo",
       "banner": "./assets/images/liga-2/estadio-rosas-pampa.png",
       "url": "",
-      "stadium": "Estadio Rosas Pampa",
-      "color1": "#025B3B",
+      "stadium": "Rosas Pampa",
+      "stadiumColor": "#fafafa",
+      "color1": "#005B36",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -220,8 +238,10 @@
       "alt": "JUA-logo",
       "banner": "./assets/images/liga-2/estadio-cesar-flores-marigorda.png",
       "url": "",
-      "stadium": "Estadio César Flores Marigorda",
+      "stadium": "César Flores Marigorda",
+      "stadiumColor": "#fafafa",
       "color1": "#FF111C",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -238,8 +258,10 @@
       "alt": "JUP-logo",
       "banner": "./assets/images/liga-2/estadio-cesar-flores-marigorda.png",
       "url": "",
-      "stadium": "Estadio César Flores Marigorda",
-      "color1": "#FA9000",
+      "stadium": "César Flores Marigorda",
+      "stadiumColor": "#fafafa",
+      "color1": "#FF7F00",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -256,8 +278,10 @@
       "alt": "PIR-logo",
       "banner": "./assets/images/liga-2/estadio-francisco-mendoza-pizarro.png",
       "url": "",
-      "stadium": "Estadio Francisco Mendoza Pizarro",
+      "stadium": "Francisco Mendoza Pizarro",
+      "stadiumColor": "#fafafa",
       "color1": "#007E00",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -274,8 +298,10 @@
       "alt": "USM-logo",
       "banner": "./assets/images/liga-2/estadio-alberto-gallardo.png",
       "url": "",
-      "stadium": "Estadio Alberto Gallardo",
+      "stadium": "Alberto Gallardo",
+      "stadiumColor": "#fafafa",
       "color1": "#282782",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -292,8 +318,10 @@
       "alt": "SAN-logo",
       "banner": "./assets/images/liga-2/estadio-municipal-de-nazca.png",
       "url": "",
-      "stadium": "Estadio Municipal de Nazca",
-      "color1": "#325BA3",
+      "stadium": "Municipal de Nazca",
+      "stadiumColor": "#fafafa",
+      "color1": "#005AD5",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -310,8 +338,10 @@
       "alt": "UCV-logo",
       "banner": "./assets/images/liga-2/estadio-25-de-noviembre.png",
       "url": "",
-      "stadium": "Estadio 25 de Noviembre",
+      "stadium": "25 de Noviembre",
+      "stadiumColor": "#fafafa",
       "color1": "#1B294B",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -328,8 +358,10 @@
       "alt": "UNH-logo",
       "banner": "./assets/images/liga-2/estadio-julio-lores-colan.png",
       "url": "",
-      "stadium": "Estadio Julio Lores Colán",
-      "color1": "#EB0803",
+      "stadium": "Julio Lores Colán",
+      "stadiumColor": "#fafafa",
+      "color1": "#FF0000",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",

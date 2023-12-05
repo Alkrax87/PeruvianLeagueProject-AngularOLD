@@ -1,36 +1,37 @@
 <nav class="navbar navbar-expand-md nav-bg">
   <div class="container-fluid">
-    <div class="brand-space px-3">
-      <a href=""><img src="./assets/images/logos/PPL-logo.png" class="brand" alt="LIGA-logo"></a>
+    <div class="square">
+      <img src="./assets/images/logos/liga-logo-r.png" alt="liga-logo" width="55px">
     </div>
+    <div class="triangle"></div>
     <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nv-pj" aria-controls="nv-pj" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="nv-pj">
+    <div class="collapse navbar-collapse nav-bg" id="nv-pj">
       <ul class="navbar-nav">
-        <li class="nav-item text-center px-3">
-          <a class="nav-link nav-items" href="/liga1">Liga 1</a>
+        <li class="nav-item text-center px-3" routerLinkActive="nav-item-selected">
+          <a class="nav-link nav-items" [routerLink]="['/liga1', { mainPage: true }]">Liga 1</a>
         </li>
-        <li class="nav-item text-center px-3">
-          <a class="nav-link nav-items" href="/liga2">Liga 2</a>
+        <li class="nav-item text-center px-3" routerLinkActive="nav-item-selected">
+          <a class="nav-link nav-items" [routerLink]="['/liga2', { mainPage: true }]">Liga 2</a>
         </li>
-        <li class="nav-item text-center px-3">
-          <a class="nav-link nav-items" href="/liga3">Liga 3</a>
+        <li class="nav-item text-center px-3" routerLinkActive="nav-item-selected">
+          <a class="nav-link nav-items" [routerLink]="['/liga3', { mainPage: true }]">Liga 3</a>
         </li>
-        <li class="nav-item text-center px-3">
-          <a class="nav-link nav-items" href="/copa-peru">Copa Perú</a>
+        <li class="nav-item text-center px-3" routerLinkActive="nav-item-selected">
+          <a class="nav-link nav-items" [routerLink]="['/copa-peru', { mainPage: true }]">Copa Perú</a>
         </li>
-        <li class="nav-item px-3">
-          <a class="nav-link text-center nav-items" href="/eliminatorias">Eliminatorias</a>
+        <li class="nav-item text-center px-3" routerLinkActive="nav-item-selected">
+          <a class="nav-link nav-items" [routerLink]="['/eliminatorias', { mainPage: true }]">Eliminatorias</a>
         </li>
-        <li class="nav-item px-3">
-          <a class="nav-link text-center nav-items" href="/torneo-reservas">Torneo Reservas</a>
+        <li class="nav-item text-center px-3" routerLinkActive="nav-item-selected">
+          <a class="nav-link nav-items" [routerLink]="['/torneo-reservas', { mainPage: true }]">Torneo Reservas</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-
+<div class="container-fluid divisor-type-1"></div>
 <main>
   <router-outlet></router-outlet>
 </main>

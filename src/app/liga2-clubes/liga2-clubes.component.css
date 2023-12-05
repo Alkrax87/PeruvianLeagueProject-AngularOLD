@@ -1,21 +1,29 @@
-ul {
-  list-style-type: none;
-  padding: 0px;
-}
 a {
   text-decoration:none;
   color: #ffff;
 }
 /* Ttitle */
 .background{
-  background: rgb(89, 6, 6);
-  background: linear-gradient(90deg, rgba(89, 6, 6, 1) 7%, rgba(153, 2, 2, 1) 30%, rgba(19, 0, 0, 1) 98%);
+  background: #DC143C;
+  background-image: url('/assets/images/banners/background-pattern.svg');
+  background-size: cover;
   height: 250px;
-  padding-top: 80px;
 }
 .background h1 {
   font-size: 73px;
   color: #fff;
+}
+/* Page Tree */
+.arrow {
+  padding: 40px 12px;
+  color: #ffbaba;
+  font-weight: bold;
+}
+.arrow span{
+  color: #fff;
+}
+.arrow i{
+  padding: 0px 20px;
 }
 /* Description */
 .notes {
@@ -28,104 +36,53 @@ a {
   font-size: 16px;
   white-space: nowrap;
 }
-@media screen and (max-width: 991px) {
-  .hide-title-D {
-    display: none;
-  }
-  .hide-description-D {
-    display: none;
-  }
+.description-image {
+  text-align: end;
 }
-@media screen and (min-width: 991px) {
-  .hide-title-M {
+@media screen and (max-width: 767px) {
+  .background h1 {
+    padding-top: 80px;
+  }
+  .description-image {
+    text-align: center;
+  }
+  .arrow {
     display: none;
   }
-  .hide-description-M {
-    display: none;
+  .title {
+    text-align: center;
   }
 }
 /* Divisor */
 .divisor-type-1 {
-  height: 30px;
-  background: rgb(89, 6, 6);
-  background: linear-gradient(90deg, rgba(89, 6, 6, 1) 7%, rgba(153, 2, 2, 1) 30%, rgba(19, 0, 0, 1) 98%);
+  background: #DC143C;
+  background-image: url('/assets/images/banners/background-pattern.svg');
+  background-size: cover;
+  height: 20px;
 }
-/* Card Item */
-.item-image {
-  height: 70px;
-  width: 70px;
+
+/* ======================================================================================================*/
+/* ==============================================Content=================================================*/
+/* ======================================================================================================*/
+.item {
+  background: #161513;
+  color: #fafafa;
 }
-.card-item .item-banner {
-  overflow: hidden;
-  height: 180px;
+.item .card-img {
+  max-width: 90px;
+}
+.card-img img {
+  width: 64px;
+}
+a:hover img {
+  transform: scale(1.2);
+}
+a img {
   transition: all 2s ease;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
 }
-.card-item .item-banner img {
-  width: 100%;
-  height: 100%;
+.club-name {
+  padding-top: 8px;
 }
-.card-item img {
-  transition: all 2s ease;
-}
-.card-item:hover img {
-  transform: scale(1.1);
-}
-.item-circle {
-  position: relative;
-  padding-top: 20px;
-  width: 110px;
-  height: 110px;
-  background: #fff;
-  border-radius: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.item-info {
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-.item-info .club-name {
-  font-size: 18px;
+.item p {
   margin: 0px;
-}
-.item-info .club-stadium {
-  font-size: 13px;
-  margin: 0px;
-}
-.card-content {
-  margin-top: -120px;
-  padding-top: 80px;
-  padding-bottom: 20px;
-}
-.card-divider {
-  background: #fff;
-  border-color: white;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px;
-  margin-left: 10%;
-  width: 80%;
-  opacity: 100%;
-}
-
-
-.card-item i {
-  transition: transform 0.5s ease; /* Agrega una transición */
-}
-
-.card-item:hover i {
-  animation: bounce 3s infinite ease;
-}
-
-/* Animacion Banner */
-@keyframes bounce {
-  0%, 100% {
-    transform: translateX(0%);
-  }
-
-  50% {
-    transform: translateX(100%);
-  }
 }

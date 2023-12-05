@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
 import { HListTeamsComponent } from './h-list-teams/h-list-teams.component';
 import { FormsModule } from '@angular/forms';
 import { DataLoadServiceService } from './data-load-service.service';
@@ -20,6 +21,7 @@ import { Liga1TecnicosComponent } from './liga1-tecnicos/liga1-tecnicos.componen
 import { Liga2ClubesComponent } from './liga2-clubes/liga2-clubes.component';
 import { Liga2TablaComponent } from './liga2-tabla/liga2-tabla.component';
 import { Liga2TecnicosComponent } from './liga2-tecnicos/liga2-tecnicos.component';
+
 
 const appRoutes:Routes=[
   { path:'', component:HomeComponent },
@@ -56,7 +58,8 @@ const appRoutes:Routes=[
     Liga1TecnicosComponent,
     Liga2ClubesComponent,
     Liga2TablaComponent,
-    Liga2TecnicosComponent
+    Liga2TecnicosComponent,
+    TopBarComponent
   ],
   imports: [
     BrowserModule, FormsModule, RouterModule.forRoot(appRoutes)

@@ -8,23 +8,34 @@
   justify-content: space-between;
 }
 .top-items img {
-  width: 40px;
+  width: 32px;
   transition: 0.2s;
 }
 .top-items img:hover {
   transform: scale(1.2);
 }
-@media screen and (max-width: 892px) {
+.top-club-text{
+  min-width: 80px;
+}
+.top-club-text p {
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 893px) {
   .top-list-bar {
-    height: 50px;
-    line-height: 50px;
+    height: 45px;
+    line-height: 40px;
   }
   .top-items img {
-    width: 30px;
+    width: 24px;
   }
 }
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 569px) {
   .top-list-bar {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top-club-text{
     display: none;
   }
 }

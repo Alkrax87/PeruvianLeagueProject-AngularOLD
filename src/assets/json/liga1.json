@@ -15,9 +15,10 @@
       "alt": "ADT-logo",
       "banner": "./assets/images/liga-1/estadio-union-tarma.png",
       "url": "",
-      "stadium": "Estadio Unión Tarma",
+      "stadium": "Unión Tarma",
+      "stadiumColor": "#fafafa",
       "color1": "#00B3FF",
-      "color2": "#333333",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -34,8 +35,10 @@
       "alt": "AAS-logo",
       "banner": "./assets/images/liga-1/estadio-campeones-del-36.png",
       "url": "",
-      "stadium": "Estadio Campeones del 36",
-      "color1": "#26267F",
+      "stadium": "Campeones del 36",
+      "stadiumColor": "#fafafa",
+      "color1": "#34348B",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -52,8 +55,10 @@
       "alt": "ALI-logo",
       "banner": "./assets/images/liga-1/estadio-alejandro-villanueva.png",
       "url": "",
-      "stadium": "Estadio Alejandro Villanueva",
+      "stadium": "Alejandro Villanueva",
+      "stadiumColor": "#fafafa",
       "color1": "#001A48",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -70,8 +75,10 @@
       "alt": "ATG-logo",
       "banner": "./assets/images/liga-1/estadio-miguel-grau-de-piura.png",
       "url": "",
-      "stadium": "Estadio Miguel Grau de Piura",
+      "stadium": "Miguel Grau de Piura",
+      "stadiumColor": "#fafafa",
       "color1": "#FF070C",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -88,8 +95,10 @@
       "alt": "CAM-logo",
       "banner": "./assets/images/liga-1/estadio-mansiche.png",
       "url": "",
-      "stadium": "Estadio Mansiche",
+      "stadium": "Mansiche",
+      "stadiumColor": "#fafafa",
       "color1": "#005FCD",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -106,8 +115,10 @@
       "alt": "CHK-logo",
       "banner": "./assets/images/liga-1/estadio-los-chankas.png",
       "url": "",
-      "stadium": "Estadio Los Chankas",
+      "stadium": "Los Chankas",
+      "stadiumColor": "#fafafa",
       "color1": "#A21009",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -124,8 +135,10 @@
       "alt": "CIE-logo",
       "banner": "./assets/images/liga-1/estadio-inca-garcilaso-de-la-vega.png",
       "url": "",
-      "stadium": "Estadio Inca Garcilaso de la Vega",
-      "color1": "#A40300",
+      "stadium": "Inca Garcilaso de la Vega",
+      "stadiumColor": "#fafafa",
+      "color1": "#1B1B59",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -142,8 +155,10 @@
       "alt": "COU-logo",
       "banner": "./assets/images/liga-1/estadio-juan-maldonado-gamarra.png",
       "url": "",
-      "stadium": "Estadio Juan Maldonado Gamarra",
+      "stadium": "Juan Maldonado Gamarra",
+      "stadiumColor": "#fafafa",
       "color1": "#35026A",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -160,8 +175,10 @@
       "alt": "CUS-logo",
       "banner": "./assets/images/liga-1/estadio-inca-garcilaso-de-la-vega.png",
       "url": "",
-      "stadium": "Estadio Inca Garcilaso de la Vega",
+      "stadium": "Inca Garcilaso de la Vega",
+      "stadiumColor": "#fafafa",
       "color1": "#DC9B52",
+      "color2": "#161513",
       "dt": [
         {
           "name": "Por Definir",
@@ -178,8 +195,10 @@
       "alt": "CDG-logo",
       "banner": "./assets/images/liga-1/estadio-inca-garcilaso-de-la-vega.png",
       "url": "",
-      "stadium": "Estadio Inca Garcilaso de la Vega",
+      "stadium": "Inca Garcilaso de la Vega",
+      "stadiumColor": "#fafafa",
       "color1": "#009EED",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -196,8 +215,10 @@
       "alt": "MEL-logo",
       "banner": "./assets/images/liga-1/estadio-monumental-de-la-unsa.png",
       "url": "",
-      "stadium": "Estadio Monumental de la UNSA",
+      "stadium": "Monumental de la UNSA",
+      "stadiumColor": "#fafafa",
       "color1": "#8C0202",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -214,7 +235,8 @@
       "alt": "SBA-logo",
       "banner": "./assets/images/liga-1/estadio-miguel-grau-del-callao.png",
       "url": "",
-      "stadium": "Estadio Miguel Grau del Callao",
+      "stadium": "Miguel Grau del Callao",
+      "stadiumColor": "#fafafa",
       "color1": "#FFAFCE",
       "color2": "#333333",
       "dt": [
@@ -233,8 +255,10 @@
       "alt": "HUA-logo",
       "banner": "./assets/images/liga-1/estadio-huancayo.png",
       "url": "",
-      "stadium": "Estadio Huancayo",
-      "color1": "#CF001C",
+      "stadium": "Huancayo",
+      "stadiumColor": "#fafafa",
+      "color1": "#F10D2A",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -251,7 +275,8 @@
       "alt": "CRI-logo",
       "banner": "./assets/images/liga-1/estadio-alberto-gallardo.png",
       "url": "",
-      "stadium": "Estadio Alberto Gallardo",
+      "stadium": "Alberto Gallardo",
+      "stadiumColor": "#fafafa",
       "color1": "#00C0F2",
       "color2": "#333333",
       "dt": [
@@ -270,8 +295,10 @@
       "alt": "UCO-logo",
       "banner": "./assets/images/liga-1/estadio-carlos-vidaurre-garcia.png",
       "url": "",
-      "stadium": "Estadio Carlos Vidaurre García",
-      "color1": "#F70900",
+      "stadium": "Carlos Vidaurre García",
+      "stadiumColor": "#fafafa",
+      "color1": "#FF2625",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -288,8 +315,10 @@
       "alt": "UCV-logo",
       "banner": "./assets/images/liga-1/estadio-mansiche.png",
       "url": "",
-      "stadium": "Estadio Mansiche",
+      "stadium": "Mansiche",
+      "stadiumColor": "#fafafa",
       "color1": "#1B294B",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",
@@ -306,7 +335,8 @@
       "alt": "UNI-logo",
       "banner": "./assets/images/liga-1/estadio-monumental.png",
       "url": "",
-      "stadium": "Estadio Monumental",
+      "stadium": "Monumental",
+      "stadiumColor": "#fafafa",
       "color1": "#F9F0D1",
       "color2": "#333333",
       "dt": [
@@ -325,8 +355,10 @@
       "alt": "UTC-logo",
       "banner": "./assets/images/liga-1/estadio-heroes-de-san-ramon.png",
       "url": "",
-      "stadium": "Estadio Héroes de San Ramón",
+      "stadium": "Héroes de San Ramón",
+      "stadiumColor": "#fafafa",
       "color1": "#8E1119",
+      "color2": "#fafafa",
       "dt": [
         {
           "name": "Por Definir",

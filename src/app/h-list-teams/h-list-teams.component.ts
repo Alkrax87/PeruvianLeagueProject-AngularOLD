@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { DataLoadServiceService } from '../data-load-service.service';
 
 @Component({
@@ -8,16 +8,19 @@ import { DataLoadServiceService } from '../data-load-service.service';
 })
 export class HListTeamsComponent implements OnInit {
 
+  @Input() value: number = 0;
   constructor(private dataLoadService: DataLoadServiceService){}
 
   data:any;
 
   ngOnInit() {
-    this.loadData();
+    if (this.value != 0) {
+      this.loadData(this.value);
+    }
   }
 
-  loadData() {
-    this.dataLoadService.loadData(1).then((data: any) => {
+  loadData(value:number) {
+    this.dataLoadService.loadData(value).then((data: any) => {
       this.data = data;
     }).catch(error => {
       console.error('Error al cargar datos en el componente:', error);
