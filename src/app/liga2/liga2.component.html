@@ -1,9 +1,8 @@
 <app-h-list-teams [value]="value"></app-h-list-teams>
-<div class="container-fluid divisor-type-1"></div>
+<div class="container-fluid divisor-type"></div>
 <!-- D -->
 <div class="container-fluid bg-light nav-options-bar hide-options-D">
   <div class="row">
-    <div class="col"></div>
     <div class="col-lg-2 col-md-3 col-sm-4 p-0">
       <a (click)="mainPage = false;" routerLink="/liga2/clubes">
         <div class="nav-options-item" routerLinkActive="nav-options-item-selected"><i class="fas fa-shield-alt"></i> Clubes</div>
@@ -19,7 +18,6 @@
         <div class="nav-options-item" routerLinkActive="nav-options-item-selected"><i class="fas fa-user-shield"></i> Técnicos</div>
       </a>
     </div>
-    <div class="col"></div>
   </div>
 </div>
 <!-- M -->
@@ -35,6 +33,124 @@
 </div>
 <!-- Content -->
 <div *ngIf="mainPage">
+  <!-- Banner -->
   <img src="./assets/images/banners/liga2banner.jpg" alt="banner" class="w-100">
+  <!-- Description -->
+  <div class="container-fluid bg-light">
+    <div class="row">
+      <div class="col-sm-4 col-md-3 text-center">
+        <p class="notes">Temporada</p>
+        <b class="notes2">{{ data && data.Info ? data.Info.temporada : '' }}</b>
+      </div>
+      <div class="col-sm-4 col-md-3 text-center">
+        <p class="notes">Equipos</p>
+        <b class="notes2">{{ data && data.Info ? data.Info.equipos : '' }}</b>
+      </div>
+      <div class="col-sm-4 col-md-3 text-center">
+        <p class="notes">Categoría</p>
+        <p class="notes2"><b>2<sup>da</sup> División</b></p>
+      </div>
+      <div class="col-sm-12 col-md-3 description-image">
+        <img src="./assets/images/liga-2/liga2fpf.png" alt="liga2logo" height="70px;">
+      </div>
+    </div>
+  </div>
+  <!-- Divisor -->
+  <div class="container-fluid divisor-type-1"></div>
+  <!-- Mapa -->
+  <div class="container-fluid bg-light py-5 px-5 text-center content-block">
+    <div class="row vertical-center">
+      <!-- Info -->
+      <div class="col-sm-12 col-md-5 col-lg-7 my-4">
+        <div class="title text-start">Equipos</div>
+        <div class="line my-3"></div>
+        <p>En la temporada <b>{{ data && data.Info ? data.Info.temporada : '' }}</b> el número de equipos participantes de la <b>Liga 1</b> es de <b> {{ data && data.Info ? data.Info.equipos : '' }} </b> equipos:</p>
+        <div class="text-center" *ngIf="data">
+          <a *ngFor="let item of data.Teams" [href]="item.url">
+            <img [src]="item.image" class="map-item-list" [alt]="item.alt">
+          </a>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <div *ngIf="mapVisibility" class="info-card">
+              <ng-container *ngIf="data && data.Map">
+                <p class="text-center">{{ regionSelected }}</p>
+                <hr>
+                <div class="d-flex justify-content-center">
+                  <div *ngFor="let item of teamsSelected">
+                    <img [src]="item.image">
+                  </div>
+                </div>
+              </ng-container>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+      <!-- Mapa -->
+      <div class="col-sm-12 col-md-7 col-lg-4">
+        <div class="map py-5">
+          <svg stroke-width="2" viewBox="-200 0 1400 1470" xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink"version="1.1">
+            <ng-container *ngIf="data && data.Map">
+              <path *ngFor="let item of data.Map" (mouseover)="item.mapStatus ? mostrar(item.mapName) : null" (mouseout)="ocultar()" (touchstart)="item.mapStatus ? mostrar(item.mapName) : null" (touchmove)="ocultar()" [ngClass]="{'map-item-active': item.mapStatus}" [id]="item.mapId" [attr.name]="item.mapName" [attr.d]="item.mapD">
+              </path>
+            </ng-container>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Formato -->
+  <div class="container-fluid py-5 px-5 format-content content-block">
+    <div class="row">
+      <!-- L -->
+      <div class="col-sm-12 col-md-5 col-lg-4 vertical-center">
+        <div>
+          <div class="title">Camino al Ascenso</div>
+          <div class="line my-3"></div>
+          <p>El camino para lograr el tan ansiado <b>Ascenso</b> hacia la máxima categoría del fútbol peruano se esclarecerá a través de las siguientes instancias.</p>
+          <img class="img-fluid" src="https://cdn.futbolperuano.com/sdi/2022/01/10/los-equipos-mas-ganadores-de-la-segunda-division-986505.jpg" alt="formato-logo">
+        </div>
+      </div>
+      <!-- R -->
+      <div class="col-sm-12 col-md-7 col-lg-7 vertical-center">
+        <div class="col-12">
+          <!-- Item 1 -->
+          <div class="row format-item my-4 mx-1">
+            <div class="col-sm-12 col-md-2"><div class="round"><i class="far fa-futbol"></i></div></div>
+            <div class="col-sm-12 col-md-10">
+              <p><b>Fase Regional</b></p>
+              <div class="line2"></div>
+              <p>En esta fase, los clubes participantes se organizan en dos grupos de nueve equipos cada uno, agrupados según su proximidad geográfica. En este formato, los equipos se enfrentan entre sí en encuentros de ida y vuelta.</p>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="row format-item my-4 mx-1">
+            <div class="col-sm-12 col-md-2"><div class="round"><i class="far fa-futbol"></i></div></div>
+            <div class="col-sm-12 col-md-10">
+              <p><b>Fase de Grupos</b></p>
+              <div class="line2"></div>
+              <p>En esta etapa, se conforma un grupo con los equipos que se ubicaron en los tres primeros lugares de cada grupo durante la fase regional. Después de disputarse esta fase, los dos equipos mejor clasificados logran el ansiado ascenso a la Liga 1.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Descenso -->
+  <div class="container-fluid py-5 px-5 relegation-content content-block">
+    <div class="row">
+      <div class="col-sm-12 col-md-5">
+        <div class="title">Descenso</div>
+        <div class="line my-3"></div>
+        <p>Los equipos que ocupen las posiciones del <b>4to al 9no</b> lugar de cada grupo en la fase regional se agruparán en <b>dos bloques</b>, quienes tendrán que enfrentarse entre si para evitar el descenso. De estos dos grupos, los equipos ubicados en las <b>últimas posiciones descenderán</b>.</p>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <img class="img-fluid" alt="liga-2" style="width: 450px; border-radius: 30px;" src="https://peru21.pe/resizer/zcXqX3TfAEVP-YgJU-NmPRUyMPs=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/SXJAVTH2WFHUNA73GV6LWWXPZQ.jpg">
+      </div>
+    </div>
+  </div>
 </div>
 <router-outlet></router-outlet>

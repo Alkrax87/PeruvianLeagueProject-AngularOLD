@@ -1,1 +1,35 @@
-<p>liga1-tabla works!</p>
+<!-- Title -->
+<div class="container-fluid background">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-10 title">
+      <div class="row">
+        <p class="arrow">HOME<i class="fas fa-chevron-right"></i>LIGA 1<i class="fas fa-chevron-right"></i><span>TABLA</span></p>
+      </div>
+      <h1><b>Tabla</b></h1>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+<!-- Description -->
+<div class="container-fluid bg-light">
+  <div class="row">
+    <div class="col-sm-4 col-md-3 text-center">
+      <p class="notes">Temporada</p>
+      <b class="notes2">{{ data && data.Info ? data.Info.temporada : '' }}</b>
+    </div>
+    <div class="col-sm-4 col-md-3 text-center">
+      <p class="notes">Equipos</p>
+      <b class="notes2">{{ data && data.Info ? data.Info.equipos : '' }}</b>
+    </div>
+    <div class="col-sm-4 col-md-3 text-center">
+      <p class="notes">Categoría</p>
+      <p class="notes2"><b>1<sup>ra</sup> División</b></p>
+    </div>
+    <div class="col-sm-12 col-md-3 description-image">
+      <img src="./assets/images/liga-1/liga1fpf.png" alt="liga1logo" height="70px;">
+    </div>
+  </div>
+</div>
+<!-- Divisor -->
+<div class="container-fluid divisor-type-1 shadow-lg"></div>

@@ -7,7 +7,6 @@ import { DataLoadServiceService } from '../data-load-service.service';
   styleUrls: ['./liga1-clubes.component.css']
 })
 export class Liga1ClubesComponent {
-
   constructor(private dataLoadService: DataLoadServiceService){}
 
   ngOnInit() {

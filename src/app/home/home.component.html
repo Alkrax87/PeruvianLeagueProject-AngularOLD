@@ -1,30 +1,23 @@
 <!-- D -->
 <div class="container-fluid bg-light nav-options-bar hide-options-D">
   <div class="row">
-    <div *ngIf="options.home; else itemD1" class="col-lg-1 col-md-2 col-sm-4 p-0">
-      <a href=""><div class="nav-options-item nav-options-item-selected">Home</div></a>
+    <div class="col"></div>
+    <div class="col-lg-2 col-md-3 col-sm-4 p-0">
+      <a routerLink="/liga1">
+        <div class="nav-options-item" routerLinkActive="nav-options-item-selected"><i class="fas fa-home"></i> Home</div>
+      </a>
     </div>
-    <ng-template #itemD1>
-      <div class="col-lg-1 col-md-2 col-sm-4 p-0">
-        <a href=""><div class="nav-options-item">Home</div></a>
-      </div>
-    </ng-template>
-    <div *ngIf="options.nosotros; else itemD2" class="col-lg-1 col-md-2 col-sm-4 p-0">
-      <a href="/nosotros"><div class="nav-options-item nav-options-item-selected">Nosotros</div></a>
+    <div class="col-lg-2 col-md-3 col-sm-4 p-0">
+      <a routerLink="/nosotros">
+        <div class="nav-options-item" routerLinkActive="nav-options-item-selected"><i class="fas fa-users"></i> Nosotros</div>
+      </a>
     </div>
-    <ng-template #itemD2>
-      <div class="col-lg-1 col-md-2 col-sm-4 p-0">
-        <a href="/nosotros"><div class="nav-options-item">Nosotros</div></a>
-      </div>
-    </ng-template>
-    <div *ngIf="options.social; else itemD3" class="col-lg-1 col-md-2 col-sm-4 p-0">
-      <a href="/social"><div class="nav-options-item nav-options-item-selected">Social</div></a>
+    <div class="col-lg-2 col-md-3 col-sm-4 p-0">
+      <a routerLink="/social">
+        <div class="nav-options-item" routerLinkActive="nav-options-item-selected"><i class="fas fa-share-alt"></i> Social</div>
+      </a>
     </div>
-    <ng-template #itemD3>
-      <div class="col-lg-1 col-md-2 col-sm-4 p-0">
-        <a href="/social"><div class="nav-options-item">Social</div></a>
-      </div>
-    </ng-template>
+    <div class="col"></div>
   </div>
 </div>
 <!-- M -->
@@ -33,8 +26,8 @@
     Home
   </button>
   <ul class="dropdown-menu bg-light w-100">
-    <li *ngIf="!options.home"><a class="dropdown-item text-center dropdown-option-item" href="">Home</a></li>
-    <li *ngIf="!options.nosotros"><a class="dropdown-item text-center dropdown-option-item" href="/nosotros">Nosotros</a></li>
-    <li *ngIf="!options.social"><a class="dropdown-item text-center dropdown-option-item" href="/social">Social</a></li>
+    <li><a class="dropdown-item text-center dropdown-option-item" routerLink="">Home</a></li>
+    <li><a class="dropdown-item text-center dropdown-option-item" routerLink="/nosotros">Nosotros</a></li>
+    <li><a class="dropdown-item text-center dropdown-option-item" routerLink="/social">Social</a></li>
   </ul>
 </div>

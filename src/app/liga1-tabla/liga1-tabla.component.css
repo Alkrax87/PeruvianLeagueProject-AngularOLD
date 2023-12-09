@@ -1,0 +1,66 @@
+a {
+  text-decoration:none;
+  color: #ffff;
+}
+/* Ttitle */
+.background{
+  background: #DC143C;
+  background-image: url('/assets/images/banners/background-pattern.svg');
+  background-size: cover;
+  height: 250px;
+}
+.background h1 {
+  font-size: 73px;
+  color: #fff;
+}
+/* Page Tree */
+.arrow {
+  padding: 40px 12px;
+  color: #ffbaba;
+  font-weight: bold;
+}
+.arrow span{
+  color: #fff;
+}
+.arrow i{
+  padding: 0px 20px;
+}
+/* Description */
+.notes {
+  padding-top: 20px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-style: italic;
+}
+.notes2 {
+  font-size: 16px;
+  white-space: nowrap;
+}
+.description-image {
+  text-align: end;
+}
+@media screen and (max-width: 767px) {
+  .background h1 {
+    padding-top: 80px;
+  }
+  .description-image {
+    text-align: center;
+  }
+  .arrow {
+    display: none;
+  }
+  .title {
+    text-align: center;
+  }
+}
+/* Divisor */
+.divisor-type-1 {
+  background: #DC143C;
+  background-image: url('/assets/images/banners/background-pattern.svg');
+  background-size: cover;
+  height: 20px;
+}
+
+/* ======================================================================================================*/
+/* ==============================================Content=================================================*/
+/* ======================================================================================================*/
