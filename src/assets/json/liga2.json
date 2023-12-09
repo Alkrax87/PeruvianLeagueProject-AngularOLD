@@ -50,9 +50,9 @@
       },
       "dt": [
         {
-          "name": "Por Definir",
-          "country": "",
-          "cod": "",
+          "name": "Roberto Arrelucea",
+          "country": "Perú",
+          "cod": "pe",
           "status" : true
         }
       ]
@@ -165,9 +165,9 @@
       },
       "dt": [
         {
-          "name": "Por Definir",
-          "country": "",
-          "cod": "",
+          "name": "Gustavo Roverano",
+          "country": "Uruguay",
+          "cod": "uy",
           "status" : true
         }
       ]

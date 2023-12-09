@@ -64,3 +64,61 @@ a {
 /* ======================================================================================================*/
 /* ==============================================Content=================================================*/
 /* ======================================================================================================*/
+.container-fluid .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+.content-block {
+  user-select: none;
+}
+/* Tabla */
+.table-header th{
+  background-color: #DC143C;
+  color: #fff;
+}
+td {
+  padding: 0px;
+  white-space: nowrap;
+  font-size: 16px;
+}
+.t-w-dt{
+  min-width: 200px;
+}
+.t-w-team{
+  min-width: 260px;
+}
+.manager-status {
+  padding: 0px;
+}
+.manager-active {
+  background: #d8b145;
+  width: 6px;
+  height: 50px;
+  padding: 0px;
+}
+.manager-disable {
+  background: #0f0e0b;
+  width: 6px;
+  height: 42px;
+  padding: 0px;
+}
+.logos{
+  width: 35px;
+}
+.flag{
+  font-size: 25px;
+}
+.table-info {
+  padding: 10px;
+}
+.line-table {
+  background: linear-gradient(270deg,#DC143C,#d8b145);
+  width: 6px;
+  height: 5px;
+  width: auto;
+}

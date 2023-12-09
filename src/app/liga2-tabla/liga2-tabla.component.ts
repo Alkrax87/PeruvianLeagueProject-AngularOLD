@@ -16,7 +16,7 @@ export class Liga2TablaComponent {
   //Cargar Data del JSON
   data:any;
   loadData() {
-    this.dataLoadService.loadData(1).then((data: any) => {
+    this.dataLoadService.loadData(2).then((data: any) => {
       this.data = data;
     }).catch(error => {
       console.error('Error al cargar datos en el componente:', error);
