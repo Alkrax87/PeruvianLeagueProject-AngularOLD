@@ -73,9 +73,9 @@
       },
       "dt": [
         {
-          "name": "Por Definir",
-          "country": "",
-          "cod": "",
+          "name": "Paul Cominges",
+          "country": "Perú",
+          "cod": "pe",
           "status" : true
         }
       ]
@@ -257,9 +257,9 @@
       },
       "dt": [
         {
-          "name": "Por Definir",
-          "country": "",
-          "cod": "",
+          "name": "Eduardo Vargas",
+          "country": "Perú",
+          "cod": "pe",
           "status" : true
         }
       ]

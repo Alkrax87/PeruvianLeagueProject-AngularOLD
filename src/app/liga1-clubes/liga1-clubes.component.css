@@ -64,6 +64,11 @@ a {
 /* ======================================================================================================*/
 /* ==============================================Content=================================================*/
 /* ======================================================================================================*/
+.container-fluid .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .item {
   background: #161513;
   color: #fafafa;
@@ -87,5 +92,25 @@ a img {
   padding-left: 5px;
 }
 .item-location{
+  font-size: 12px;
+}
+.logos{
+  width: 35px;
+}
+/* Tabla */
+.table-header th{
+  background-color: #DC143C;
+  color: #fff;
+}
+/* All-time */
+.all-time-title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #BE152A;
+}
+.all-time-text td{
+  color: #161513;
+}
+.all-time-text i{
   font-size: 12px;
 }

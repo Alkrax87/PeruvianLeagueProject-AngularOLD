@@ -1,6 +1,6 @@
 a {
   text-decoration:none;
-  color: #ffff;
+  color: #000;
 }
 /* Ttitle */
 .background{
@@ -64,3 +64,81 @@ a {
 /* ======================================================================================================*/
 /* ==============================================Content=================================================*/
 /* ======================================================================================================*/
+.container-fluid .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+.content-block {
+  user-select: none;
+}
+/* Tabla */
+.table-header th{
+  background-color: #DC143C;
+  color: #fff;
+}
+td {
+  padding: 0px;
+  white-space: nowrap;
+  font-size: 16px;
+}
+.team-status {
+  padding: 0px;
+}
+.logos{
+  width: 35px;
+}
+.table-info {
+  padding: 10px;
+}
+.line-table {
+  background: linear-gradient(270deg,#DC143C,#d8b145);
+  width: 6px;
+  height: 5px;
+  width: auto;
+}
+/* Icons Color */
+.win {
+  margin-top: 10px;
+  color: #3AA757;
+  font-size: 18px;
+}
+.draw {
+  margin-top: 10px;
+  color: #9AA0A6;
+  font-size: 18px;
+}
+.lose {
+  margin-top: 10px;
+  color: #EA4335;
+  font-size: 18px;
+}
+/* Clasifiers */
+.winner {
+  background: #d8b145;
+  width: 6px;
+  height: 40px;
+  padding: 0px;
+}
+.libertadores {
+  background: #FBBC04;
+  width: 6px;
+  height: 40px;
+  padding: 0px;
+}
+.sudamericana {
+  background: #34A853;
+  width: 6px;
+  height: 40px;
+  padding: 0px;
+}
+.relegation {
+  background: #c1272d;
+  width: 6px;
+  height: 40px;
+  padding: 0px;
+}
