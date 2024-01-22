@@ -16,6 +16,7 @@ import { EliminatoriasComponent } from './eliminatorias/eliminatorias.component'
 import { TorneoReservasComponent } from './torneo-reservas/torneo-reservas.component';
 import { RouterModule, Routes } from '@angular/router';
 import { Liga1ClubesComponent } from './liga1-clubes/liga1-clubes.component';
+import { Liga1FixtureComponent } from './liga1-fixture/liga1-fixture.component';
 import { Liga1TablaComponent } from './liga1-tabla/liga1-tabla.component';
 import { Liga1TecnicosComponent } from './liga1-tecnicos/liga1-tecnicos.component';
 import { Liga2ClubesComponent } from './liga2-clubes/liga2-clubes.component';
@@ -23,10 +24,12 @@ import { Liga2TablaComponent } from './liga2-tabla/liga2-tabla.component';
 import { Liga2TecnicosComponent } from './liga2-tecnicos/liga2-tecnicos.component';
 
 
+
 const appRoutes:Routes=[
   { path:'', component:HomeComponent },
   { path:'liga1', component:Liga1Component, children:[
     {path: 'clubes', component:Liga1ClubesComponent},
+    {path: 'fixture', component:Liga1FixtureComponent},
     {path: 'tabla', component:Liga1TablaComponent},
     {path: 'tecnicos', component:Liga1TecnicosComponent}
   ] },
@@ -54,6 +57,7 @@ const appRoutes:Routes=[
     EliminatoriasComponent,
     TorneoReservasComponent,
     Liga1ClubesComponent,
+    Liga1FixtureComponent,
     Liga1TablaComponent,
     Liga1TecnicosComponent,
     Liga2ClubesComponent,
