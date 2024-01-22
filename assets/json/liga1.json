@@ -11,6 +11,7 @@
     {
       "id": "Team1",
       "name": "ADT",
+      "abbreviation": "ADT",
       "image": "./assets/images/liga-1/adt.png",
       "alt": "ADT-logo",
       "banner": "./assets/images/liga-1/estadio-union-tarma.png",
@@ -29,11 +30,50 @@
           "cod": "ar",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team2",
       "name": "Alianza Atlético",
+      "abbreviation": "AAS",
       "image": "./assets/images/liga-1/aas.png",
       "alt": "AAS-logo",
       "banner": "./assets/images/liga-1/estadio-campeones-del-36.png",
@@ -52,11 +92,50 @@
           "cod": "ar",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team3",
       "name": "Alianza Lima",
+      "abbreviation": "ALI",
       "image": "./assets/images/liga-1/ali.png",
       "alt": "ALI-logo",
       "banner": "./assets/images/liga-1/estadio-alejandro-villanueva.png",
@@ -75,11 +154,50 @@
           "cod": "co",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team4",
       "name": "Atlético Grau",
+      "abbreviation": "ATG",
       "image": "./assets/images/liga-1/atg.png",
       "alt": "ATG-logo",
       "banner": "./assets/images/liga-1/estadio-miguel-grau-de-piura.png",
@@ -98,11 +216,50 @@
           "cod": "ar",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team5",
       "name": "Carlos Mannucci",
+      "abbreviation": "CAM",
       "image": "./assets/images/liga-1/cam.png",
       "alt": "CAM-logo",
       "banner": "./assets/images/liga-1/estadio-mansiche.png",
@@ -121,11 +278,50 @@
           "cod": "pe",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team6",
       "name": "Chankas CYC",
+      "abbreviation": "CHK",
       "image": "./assets/images/liga-1/chk.png",
       "alt": "CHK-logo",
       "banner": "./assets/images/liga-1/estadio-los-chankas.png",
@@ -144,11 +340,50 @@
           "cod": "pe",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team7",
       "name": "Cienciano",
+      "abbreviation": "CIE",
       "image": "./assets/images/liga-1/cie.png",
       "alt": "CIE-logo",
       "banner": "./assets/images/liga-1/estadio-inca-garcilaso-de-la-vega.png",
@@ -167,11 +402,50 @@
           "cod": "pe",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team8",
       "name": "Comerciantes Unidos",
+      "abbreviation": "COU",
       "image": "./assets/images/liga-1/cou.png",
       "alt": "COU-logo",
       "banner": "./assets/images/liga-1/estadio-juan-maldonado-gamarra.png",
@@ -190,11 +464,50 @@
           "cod": "pe",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team9",
       "name": "Cusco FC",
+      "abbreviation": "CUS",
       "image": "./assets/images/liga-1/cus.png",
       "alt": "CUS-logo",
       "banner": "./assets/images/liga-1/estadio-inca-garcilaso-de-la-vega.png",
@@ -213,13 +526,52 @@
           "cod": "ar",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team10",
       "name": "Deportivo Garcilaso",
-      "image": "./assets/images/liga-1/cdg.png",
-      "alt": "CDG-logo",
+      "abbreviation": "GAR",
+      "image": "./assets/images/liga-1/gar.png",
+      "alt": "GAR-logo",
       "banner": "./assets/images/liga-1/estadio-inca-garcilaso-de-la-vega.png",
       "url": "",
       "stadium": "Inca Garcilaso de la Vega",
@@ -236,11 +588,50 @@
           "cod": "ar",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team11",
       "name": "FBC Melgar",
+      "abbreviation": "MEL",
       "image": "./assets/images/liga-1/mel.png",
       "alt": "MEL-logo",
       "banner": "./assets/images/liga-1/estadio-monumental-de-la-unsa.png",
@@ -259,11 +650,50 @@
           "cod": "ar",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team12",
       "name": "Sport Boys",
+      "abbreviation": "SBA",
       "image": "./assets/images/liga-1/sba.png",
       "alt": "SBA-logo",
       "banner": "./assets/images/liga-1/estadio-miguel-grau-del-callao.png",
@@ -282,11 +712,50 @@
           "cod": "ar",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team13",
       "name": "Sport Huancayo",
+      "abbreviation": "HUA",
       "image": "./assets/images/liga-1/hua.png",
       "alt": "HUA-logo",
       "banner": "./assets/images/liga-1/estadio-huancayo.png",
@@ -305,11 +774,50 @@
           "cod": "pe",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team14",
       "name": "Sporting Cristal",
+      "abbreviation": "CRI",
       "image": "./assets/images/liga-1/cri.png",
       "alt": "CRI-logo",
       "banner": "./assets/images/liga-1/estadio-alberto-gallardo.png",
@@ -328,11 +836,50 @@
           "cod": "br",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team15",
       "name": "Unión Comercio",
+      "abbreviation": "UCO",
       "image": "./assets/images/liga-1/uco.png",
       "alt": "UCO-logo",
       "banner": "./assets/images/liga-1/estadio-carlos-vidaurre-garcia.png",
@@ -346,16 +893,55 @@
       },
       "dt": [
         {
-          "name": "Por Definir",
-          "country": "",
-          "cod": "",
+          "name": "Néstor Craviotto",
+          "country": "Argentina",
+          "cod": "ar",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team16",
-      "name": "Universidad César Vallejo",
+      "name": "U. César Vallejo",
+      "abbreviation": "UCV",
       "image": "./assets/images/liga-1/ucv.png",
       "alt": "UCV-logo",
       "banner": "./assets/images/liga-1/estadio-mansiche.png",
@@ -374,11 +960,50 @@
           "cod": "pe",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team17",
       "name": "Universitario",
+      "abbreviation": "UNI",
       "image": "./assets/images/liga-1/uni.png",
       "alt": "UNI-logo",
       "banner": "./assets/images/liga-1/estadio-monumental.png",
@@ -397,11 +1022,50 @@
           "cod": "uy",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     },
     {
       "id": "Team18",
       "name": "UTC",
+      "abbreviation": "UTC",
       "image": "./assets/images/liga-1/utc.png",
       "alt": "UTC-logo",
       "banner": "./assets/images/liga-1/estadio-heroes-de-san-ramon.png",
@@ -415,125 +1079,242 @@
       },
       "dt": [
         {
-          "name": "Por Definir",
-          "country": "",
-          "cod": "",
+          "name": "Carlos Ramacciotti",
+          "country": "Argentina",
+          "cod": "ar",
           "status" : true
         }
+      ],
+      "apertura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
+      ],
+      "clausura": [
+        { "game": 1, "score": null },
+        { "game": 2, "score": null },
+        { "game": 3, "score": null },
+        { "game": 4, "score": null },
+        { "game": 5, "score": null },
+        { "game": 6, "score": null },
+        { "game": 7, "score": null },
+        { "game": 8, "score": null },
+        { "game": 9, "score": null },
+        { "game": 10, "score": null },
+        { "game": 11, "score": null },
+        { "game": 12, "score": null },
+        { "game": 13, "score": null },
+        { "game": 14, "score": null },
+        { "game": 15, "score": null },
+        { "game": 16, "score": null },
+        { "game": 17, "score": null }
       ]
     }
   ],
-  "Apertura": {
-    "F1": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F2": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F3": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F4": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F5": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F6": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F7": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F8": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F9": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F10": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F11": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F12": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F13": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F14": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F15": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F16": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F17": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F18": [
-      "","","","","","","","","","","","","","","","","",""
-    ]
-  },
-  "Clausura": {
-    "F1": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F2": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F3": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F4": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F5": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F6": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F7": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F8": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F9": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F10": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F11": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F12": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F13": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F14": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F15": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F16": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F17": [
-      "","","","","","","","","","","","","","","","","",""
-    ],
-    "F18": [
-      "","","","","","","","","","","","","","","","","",""
-    ]
+  "Fixture": {
+    "apertura": {
+      "1": [
+        { "home": "Team18", "away": "Team10" },
+        { "home": "Team7", "away": "Team8" },
+        { "home": "Team6", "away": "Team15" },
+        { "home": "Team14", "away": "Team1" },
+        { "home": "Team5", "away": "Team17" },
+        { "home": "Team11", "away": "Team9" },
+        { "home": "Team3", "away": "Team16" },
+        { "home": "Team4", "away": "Team2" },
+        { "home": "Team13", "away": "Team12" }
+      ],
+      "2": [
+        { "home": "Team1", "away": "Team7" },
+        { "home": "Team16", "away": "Team11" },
+        { "home": "Team9", "away": "Team18" },
+        { "home": "Team10", "away": "Team13" },
+        { "home": "Team2", "away": "Team3" },
+        { "home": "Team17", "away": "Team4" },
+        { "home": "Team15", "away": "Team5" },
+        { "home": "Team8", "away": "Team6" },
+        { "home": "Team12", "away": "Team14" }
+      ],
+      "3": [
+        { "home": "Team5", "away": "Team8" },
+        { "home": "Team4", "away": "Team15" },
+        { "home": "Team6", "away": "Team1" },
+        { "home": "Team7", "away": "Team14" },
+        { "home": "Team3", "away": "Team17" },
+        { "home": "Team13", "away": "Team9" },
+        { "home": "Team18", "away": "Team16" },
+        { "home": "Team11", "away": "Team2" },
+        { "home": "Team12", "away": "Team10" }
+      ],
+      "4": [
+        { "home": "Team9", "away": "Team10" },
+        { "home": "Team17", "away": "Team11" },
+        { "home": "Team2", "away": "Team18" },
+        { "home": "Team16", "away": "Team13" },
+        { "home": "Team15", "away": "Team3" },
+        { "home": "Team8", "away": "Team4" },
+        { "home": "Team1", "away": "Team5" },
+        { "home": "Team14", "away": "Team6" },
+        { "home": "Team7", "away": "Team12" }
+      ],
+      "5": [
+        { "home": "Team6", "away": "Team7" },
+        { "home": "Team3", "away": "Team8" },
+        { "home": "Team11", "away": "Team15" },
+        { "home": "Team4", "away": "Team1" },
+        { "home": "Team5", "away": "Team14" },
+        { "home": "Team18", "away": "Team17" },
+        { "home": "Team10", "away": "Team16" },
+        { "home": "Team13", "away": "Team2" },
+        { "home": "Team12", "away": "Team9" }
+      ],
+      "6": [
+        { "home": "Team2", "away": "Team10" },
+        { "home": "Team8", "away": "Team11" },
+        { "home": "Team15", "away": "Team18" },
+        { "home": "Team17", "away": "Team13" },
+        { "home": "Team1", "away": "Team3" },
+        { "home": "Team16", "away": "Team9" },
+        { "home": "Team14", "away": "Team4" },
+        { "home": "Team7", "away": "Team5" },
+        { "home": "Team6", "away": "Team12" }
+      ],
+      "7": [
+        { "home": "Team4", "away": "Team7" },
+        { "home": "Team18", "away": "Team8" },
+        { "home": "Team13", "away": "Team15" },
+        { "home": "Team11", "away": "Team1" },
+        { "home": "Team3", "away": "Team14" },
+        { "home": "Team10", "away": "Team17" },
+        { "home": "Team9", "away": "Team2" },
+        { "home": "Team5", "away": "Team6" },
+        { "home": "Team12", "away": "Team16" }
+      ],
+      "8": [
+        { "home": "Team15", "away": "Team10" },
+        { "home": "Team14", "away": "Team11" },
+        { "home": "Team1", "away": "Team18" },
+        { "home": "Team8", "away": "Team13" },
+        { "home": "Team7", "away": "Team3" },
+        { "home": "Team17", "away": "Team9" },
+        { "home": "Team6", "away": "Team4" },
+        { "home": "Team2", "away": "Team16" },
+        { "home": "Team5", "away": "Team12" }
+      ],
+      "9": [
+        { "home": "Team11", "away": "Team7" },
+        { "home": "Team9", "away": "Team15" },
+        { "home": "Team13", "away": "Team1" },
+        { "home": "Team18", "away": "Team14" },
+        { "home": "Team16", "away": "Team17" },
+        { "home": "Team4", "away": "Team5" },
+        { "home": "Team3", "away": "Team6" },
+        { "home": "Team10", "away": "Team8" },
+        { "home": "Team12", "away": "Team2" }
+      ],
+      "10": [
+        { "home": "Team1", "away": "Team10" },
+        { "home": "Team6", "away": "Team11" },
+        { "home": "Team7", "away": "Team18" },
+        { "home": "Team14", "away": "Team13" },
+        { "home": "Team5", "away": "Team3" },
+        { "home": "Team8", "away": "Team9" },
+        { "home": "Team15", "away": "Team16" },
+        { "home": "Team17", "away": "Team2" },
+        { "home": "Team4", "away": "Team12" }
+      ],
+      "11": [
+        { "home": "Team13", "away": "Team7" },
+        { "home": "Team16", "away": "Team8" },
+        { "home": "Team2", "away": "Team15" },
+        { "home": "Team9", "away": "Team1" },
+        { "home": "Team10", "away": "Team14" },
+        { "home": "Team3", "away": "Team4" },
+        { "home": "Team11", "away": "Team5" },
+        { "home": "Team18", "away": "Team6" },
+        { "home": "Team12", "away": "Team17" }
+      ],
+      "12": [
+        { "home": "Team7", "away": "Team10" },
+        { "home": "Team4", "away": "Team11" },
+        { "home": "Team5", "away": "Team18" },
+        { "home": "Team6", "away": "Team13" },
+        { "home": "Team15", "away": "Team17" },
+        { "home": "Team14", "away": "Team9" },
+        { "home": "Team1", "away": "Team16" },
+        { "home": "Team8", "away": "Team2" },
+        { "home": "Team3", "away": "Team12" }
+      ],
+      "13": [
+        { "home": "Team9", "away": "Team7" },
+        { "home": "Team2", "away": "Team1" },
+        { "home": "Team17", "away": "Team8" },
+        { "home": "Team16", "away": "Team14" },
+        { "home": "Team11", "away": "Team3" },
+        { "home": "Team18", "away": "Team4" },
+        { "home": "Team13", "away": "Team5" },
+        { "home": "Team10", "away": "Team6" },
+        { "home": "Team12", "away": "Team15" }
+      ],
+      "14": [
+        { "home": "Team8", "away": "Team15" },
+        { "home": "Team5", "away": "Team10" },
+        { "home": "Team3", "away": "Team18" },
+        { "home": "Team4", "away": "Team13" },
+        { "home": "Team1", "away": "Team17" },
+        { "home": "Team6", "away": "Team9" },
+        { "home": "Team7", "away": "Team16" },
+        { "home": "Team14", "away": "Team2" },
+        { "home": "Team11", "away": "Team12" }
+      ],
+      "15": [
+        { "home": "Team2", "away": "Team7" },
+        { "home": "Team18", "away": "Team11" },
+        { "home": "Team15", "away": "Team1" },
+        { "home": "Team17", "away": "Team14" },
+        { "home": "Team13", "away": "Team3" },
+        { "home": "Team10", "away": "Team4" },
+        { "home": "Team9", "away": "Team5" },
+        { "home": "Team16", "away": "Team6" },
+        { "home": "Team12", "away": "Team8" }
+      ],
+      "16": [
+        { "home": "Team3", "away": "Team10" },
+        { "home": "Team1", "away": "Team8" },
+        { "home": "Team14", "away": "Team15" },
+        { "home": "Team11", "away": "Team13" },
+        { "home": "Team7", "away": "Team17" },
+        { "home": "Team4", "away": "Team9" },
+        { "home": "Team5", "away": "Team16" },
+        { "home": "Team6", "away": "Team2" },
+        { "home": "Team18", "away": "Team12" }
+      ],
+      "17": [
+        { "home": "Team15", "away": "Team7" },
+        { "home": "Team10", "away": "Team11" },
+        { "home": "Team13", "away": "Team18" },
+        { "home": "Team8", "away": "Team14" },
+        { "home": "Team9", "away": "Team3" },
+        { "home": "Team16", "away": "Team4" },
+        { "home": "Team2", "away": "Team5" },
+        { "home": "Team17", "away": "Team6" },
+        { "home": "Team12", "away": "Team1" }
+      ]
+    }
   },
   "Finalistas": [
     {
@@ -710,6 +1491,155 @@
       "mapName": "Ucayali",
       "mapStatus": false,
       "mapD": "M581 594.5l-2.7 1.2 0.7 1.4 3.1 1.8 10.3 10.8 2.2 1.5 2.5 1.1 3 0.9 2.3 1.9 0.8 3.2-0.9 3.1-2.5 1.6-2.7-1-1.2 0-0.1 1.4 0.9 3.9 0.5 1.1 2.4 1.8 3.3 1.3 3 1.6 1.3 2.6 0.6 1.8 2.5 3.5 0.9 1.9 0 1.5-0.4 3 0.2 1.5 1 1.8 2.3 3 0.7 2.1 0.4 3.3 0.5 1.5 1.2 1.1 6.2 3.5 0.9 0.7 1.3 1.7 0.8 0.7 0.7 0.3 1.7 0.2 0.7 0.3 1.1 1.2 0.6 1.4 0 1.6-0.7 3.6 0 1.5 0.6 1.3 3.3 4.4 1.4 1.4 1.7 0.9 4.6 0.9 1.5 0.8 1.3 1.4 0.9 1.5 1.4 3.4 6.1 8.9 1.2 1 2.9 1.9 1 1.1 2.2 3.3 0.5 1.3 0.8 6.7-0.3 2.4-0.7 1.5-0.8 1-3.6 2.9 0 2.2-0.5 1-1.1 0.6-1.3 0.4-1.1 0.1-0.9 0.6-0.9 1.3-1.3 2.5-1.8 2.5-4.2 4.2-1.7 2.7 31.7 0.1 9.6 2 1.1 0.8 0.5 0.1 1.2-0.6 1.6 0.3 3.2 1 3.2 1.6 1.5 0.5 3.6 0.4 4.7-0.4 1.7 0.4 1.5 0.8 2.2 1.9 1.4 1 0.8 0.1 0.9-0.2 0.8 0.1 0.5 0.6 0.1 0.8-0.1 2.4 0.2 1.6 0.7 1.4 2.2 2.5 0.4 1.5-0.2 1.5-1 3 1 3 5.5 3.5 1.7 3.2 0.2 0.9 0.6 1.7 0.2 0.8-0.2 1-1.2 1.5-0.4 0.8-0.2 1.7 0.2 1.4-0.1 1.4-0.9 1.6 32.4 0.1 14.1 0 17 0 1.4-0.3 0.8-0.6 0.7-1.1 1.2-0.1 0.8 0.3 1.2 0.8 1.1 0 1.5-0.8 2.8-2.2 3.9-1.3 1-1.6 0.7-1.8 1-1.8 1.4-1 5.2-2.3 4.9-1.3 1.5-1.1 0.6-1 0.9-2 0.7-0.9 0.9-0.8 2-1.3 0.9-0.7 2.3-3.3 1.3-1.5 3.9-2.1 1.6-1.3 3-3 1.6-1.3 5.2-2.9 1.5-1.5 2.8-3.4 1.6-1.4 1.5-0.8 1.6-0.3 3.3-0.4 0.1 1.1-0.9 1.6-0.2 1.3-0.4 1-1.5 0.7 0.5 1.1-1 0.3-0.6 0.8-0.2 1 1.1 1.9-0.7 0.2-1.5-0.3-2.1 0-0.4 0.1 0.7 1.5 0.6 2.6 0.5 1.5 0.9 1.2 2.3 1.8 1 1.2 0.5 1.6-0.1 1.5-0.7 1.4-1.2 1.8-0.2 1-0.4 0.5-0.4 0-0.8-0.5-0.4 0-1.6 1.1-0.6 0.7-0.5 0.8-0.7 3.2 0 8.4-10.5 7.7-2.5 2.4-1.2 1.5-1.1 3.6-0.4 1.8-0.7 11.1-0.7 2.7-1 2.6-2.4 3.8-7.6 9.1-1.9 1.5-1.4 0.8-4.9 4-4 2.6-4.5 3.8-3.1 1.9-1.6 0.6-6.8 2.1-35 18.2-0.8 0.3-1.8 0.4-11 0.4-2-0.4-0.6-0.4-3.2-2.5-1.4-0.6-1.7-0.4-2.9-0.2-1.4 0.5-0.8 0.9-0.1 0.8 0.1 0.9 4.3 5.4 0.7 1.4-0.1 1-0.2 1.2-5.9 10.5-0.8 2-0.5 1.7-0.3 2.3 0 1.9-1.3-0.5-1.8-0.2-2 0.7-0.9 0-0.9-0.5-1.4-0.9-0.7-0.2-0.7 0.4-5.5 1.5-2.8 1.2-1.5 1.1-2.9 2.6-0.7 0.5-2 0.8-1.4 1-0.6 0.5-1.5 1-2.7 0.4-3.4-0.7-1.8-0.8-1.9-1.4-0.7-0.3-0.9 0-0.6-0.4-0.5-0.7-0.2-0.9-0.4-0.8-0.8-0.3-1.5 0.1-1.6 1-0.7 0.3-0.9 0.1-0.8-0.2-2.6 0.2-1.1-0.3-1.9-1.7-0.7-0.4-3.1-0.9-2.1-1.6-0.3-0.8-0.2-1.6-0.4-0.7-1-1.1-0.5-0.7-0.8-2.6-0.4-0.7-0.8-0.6-0.9 0.3-0.6 0.5-2.9 4-1.2 1.1-2.6 0.9-3 0.9-10.3 1.4-5.6-0.1-2.1 0.3-3.5 1.2-2.3-0.5-1.6-1.1-1.8-2.1-1.2-2.3-1.6-4.9-0.2-1.7 1.7-10.6 0-3-0.1-0.5-2.7-5.7-2.8-4.9-3-3.7-1.1-1.1-1.3-1-1.6-0.6-3.7-0.8-1.7-0.6-1.7-0.8-1.2-0.2-1 0.9-3 5.4-6 8.4-1 1-1.1 0.9-1.2 0.6-1.1 0.4-2.4 0-3.6-0.5-1.1 0.2-1.2 0.3-2.5 0.4-1.2 0-1.2 0.1-4.2 1.2-1.5 0.8-1.3 0.3-1.7 0.2-4.5-0.2-1.4 0.2-1.2 0.6-1.2 0.7-1.5 0.8-3.2 0.9-2.3-0.2-1.5-0.5-1.2-0.8-2.1-3.2-0.4-1.1-0.8-2.8-1.5-7.7 3.4-1.8 4.2-3.6 4.5-4.7 1.7-1.5 3.3-3.4 1.3-1 3.6-2 3.5-1.1 0.9-0.5 0.5-0.8 0-1.1-0.4-1-0.7-0.9-0.9-0.7-1.2-0.7-5.6-2.1-0.9-0.5-0.6-0.8-1-3.8-1.5-3.3-0.6-1.2-2.5-6.2-0.3-1.3 0-1.2 1-11.7-0.1-2-1-2.3-3.8-6.8-1.2-3.7 0-2.8 0.3-3.1-0.5-2.7-3.1-8.3-1.8-3.8-0.9-1.4-1.9-2.2-10.4-15.3-1.3-1.6-1.2-1.9-1.2-3.1-0.2-1 0-1.4 0.8-3.5 2.2-6.7 0.9-3.7 0.1-2-0.1-0.9-0.8-3.5-0.1-1 0.2-0.9 0.6-1.6 1.2-2.1 2.1-4.5 0.6-2.7 0.4-7.9 0.6-1.6 0.5-0.6 0.8-0.5 4.4-2.2 1.5-1.1 0.4-0.8 0.2-0.9-0.1-1.6-0.4-1.8-0.5-1.6-0.8-1.4-1.1-1.1-1.4-0.9-1.7-0.5-7.3-0.5-1.8 0.2-2.3 0.7-5.6 2.2-1.3 0.9-6.9 5.8-0.8 0.5-4 1.9-1.9 1.4-3.8 3.8-2.7 3.3-4.8 7.4-1.9 2.4-1.1 1.9-0.9 2.5-0.4 0.7-1.9 2.6-0.7 1.5-1.2 3-0.6 0.9-2.4 2.5-1.7 2.7-1.1 0.9-1.6 0.8-3.6 1.4-1.8 0.5-2.1 0.3-0.8 0.4-9.6 8-0.7 0.4-2 1-1.9 0.4-2.6-0.1-1.1-0.8-0.9-1.1-3.7-7.3-0.5-0.6-1.2-1.1-2-1.4-0.6-0.5-0.6-1-0.5-1.4-0.6-2.7-0.1-1.4 0.1-1.2 0.2-1.9-0.1-1-0.3-1.7-0.2-0.8-1.6-3-0.8-1-0.8-0.7-2.6-1.2-0.4-0.4-0.3-1.1-1.2-14-0.3-1.3-0.6-1.5-3.5-5.2-1.1-2.3-0.4-3.1 8-3.8 3.2-2.7 2.4-2.6 2.5-2.2 5.4-3.6 1.5-1.4 1.2-1.4 0.8-1.3 1.2-1.2 1.4-0.6 1.6-0.1 1.3 0.3 1.1 0.6 1 0.6 5.8 5 1.2 0.6 1.6 0.7 1.8-0.1 1-0.7 0.3-1.1-0.2-1.2-0.6-1-4.1-4.9-1.4-2-0.5-1.1-0.8-3 0-1.7 0.2-1.4 0.8-1.5 1.1-1 1.5-1.1 1.1-0.4 1-0.1 0.9 0.1 1.9-0.2 0.7-0.6 0.7-1 0.4-1 0.2-1.3 0.4-1.3 0.7-1.5 1.1-1 0.7-0.1 1 0.4 1.3 0.7 9.9 0 3.8-0.9 2-0.8 1.6-0.8 4.5-3.1 2.6-1.3 6.5-2.2 17.9-3.1 2-0.7 5-2.7 1.5-0.9 1-1.1 0.8-1.1 0.4-1.1 0.2-1.4 0.3-7-1.2-7.2 0.3-5-0.1-2.9-1.9-10.7-0.8-2.2-0.5-1.1-0.4-1.2 0-1.5 0.7-1.8 0.9-1 1.1-0.5 1.2-0.1 3.1 0.5 7.5 4.6 3.7 1.2 5.5 0.1 2 0.3 4 1 12.9 4.8 3.6 1.8 1 0.6 2 1.7z"
+    }
+  ],
+  "Legacy": [
+    {
+      "name": "Alfonso Ugarte Chiclín",
+      "image": "./assets/images/liga-1/legacy/auc.png",
+      "alt": "AUC-logo",
+      "stadium": "Mansiche",
+      "location": "Trujillo"
+    },
+    {
+      "name": "Alfonso Ugarte Puno",
+      "image": "./assets/images/liga-1/legacy/alu.png",
+      "alt": "ALU-logo",
+      "stadium": "Monumental de la UNA",
+      "location": "Puno"
+    },
+    {
+      "name": "Alianza Universidad",
+      "image": "./assets/images/liga-1/legacy/auh.png",
+      "alt": "AUH-logo",
+      "stadium": "Heraclio Tapia",
+      "location": "Huánuco"
+    },
+    {
+      "name": "Atlético Chalaco",
+      "image": "./assets/images/liga-1/legacy/ach.png",
+      "alt": "ACH-logo",
+      "stadium": "Telmo Carbajo",
+      "location": "Callao"
+    },
+    {
+      "name": "Atlético Torino",
+      "image": "./assets/images/liga-1/legacy/tor.png",
+      "alt": "TOR-logo",
+      "stadium": "Campeonísimo",
+      "location": "Talara"
+    },
+    {
+      "name": "Club Sportivo Huracán",
+      "image": "./assets/images/liga-1/legacy/shu.png",
+      "alt": "SHU-logo",
+      "stadium": "Mariano Melgar",
+      "location": "Arequipa"
+    },
+    {
+      "name": "CNI",
+      "image": "./assets/images/liga-1/legacy/cni.png",
+      "alt": "CNI-logo",
+      "stadium": "Max Augustín",
+      "location": "Iquitos"
+    },
+    {
+      "name": "Coronel Bolognesi",
+      "image": "./assets/images/liga-1/legacy/bol.png",
+      "alt": "BOL-logo",
+      "stadium": "Jorge Basadre",
+      "location": "Tacna"
+    },
+    {
+      "name": "Defensor Lima",
+      "image": "./assets/images/liga-1/legacy/dli.png",
+      "alt": "DLI-logo",
+      "stadium": "GUE Mariano Melgar",
+      "location": "Lima"
+    },
+    {
+      "name": "Deportivo Municipal",
+      "image": "./assets/images/liga-1/legacy/mun.png",
+      "alt": "MUN-logo",
+      "stadium": "Iván Elías Moreno",
+      "location": "Lima"
+    },
+    {
+      "name": "Diablos Rojos",
+      "image": "./assets/images/liga-1/legacy/dro.png",
+      "alt": "DRO-logo",
+      "stadium": "Guillermo Briceño",
+      "location": "Juliaca"
+    },
+    {
+      "name": "FBC Aurora",
+      "image": "./assets/images/liga-1/legacy/aur.png",
+      "alt": "AUR-logo",
+      "stadium": "Mariano Melgar",
+      "location": "Arequipa"
+    },
+    {
+      "name": "Juan Aurich",
+      "image": "./assets/images/liga-1/legacy/jua.png",
+      "alt": "JUA-logo",
+      "stadium": "Elías Aguirre",
+      "location": "Chiclayo"
+    },
+    {
+      "name": "José Gálvez",
+      "image": "./assets/images/liga-1/legacy/jga.png",
+      "alt": "JGA-logo",
+      "stadium": "Manuel Rivera Sánchez",
+      "location": "Chimbote"
+    },
+    {
+      "name": "León de Huánuco",
+      "image": "./assets/images/liga-1/legacy/lhu.png",
+      "alt": "LHU-logo",
+      "stadium": "Heraclio Tapia",
+      "location": "Huánuco"
+    },
+    {
+      "name": "Octavio Espinoza",
+      "image": "./assets/images/liga-1/legacy/oes.png",
+      "alt": "OES-logo",
+      "stadium": "José Picasso Peratta",
+      "location": "Ica"
+    },
+    {
+      "name": "Sport Áncash",
+      "image": "./assets/images/liga-1/legacy/anc.png",
+      "alt": "ANC-logo",
+      "stadium": "Rosas Pampa",
+      "location": "Huaráz"
+    },
+    {
+      "name": "Unión Huaral",
+      "image": "./assets/images/liga-1/legacy/unh.png",
+      "alt": "UNH-logo",
+      "stadium": "Julio Lores Colán",
+      "location": "Huaral"
+    },
+    {
+      "name": "Unión Minas",
+      "image": "./assets/images/liga-1/legacy/umi.png",
+      "alt": "UMI-logo",
+      "stadium": "Daniel Alcides Carrión",
+      "location": "Pasco"
+    },
+    {
+      "name": "Universidad San Martín",
+      "image": "./assets/images/liga-1/legacy/usm.png",
+      "alt": "USM-logo",
+      "stadium": "Iván Elías Moreno",
+      "location": "Lima"
+    },
+    {
+      "name": "Walter Ormeño",
+      "image": "./assets/images/liga-1/legacy/wal.png",
+      "alt": "WAL-logo",
+      "stadium": "Óscar Ramos Cabieses",
+      "location": "Cañete"
     }
   ]
 }
