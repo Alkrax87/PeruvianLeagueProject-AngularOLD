@@ -29,6 +29,12 @@
           "country": "Argentina",
           "cod": "ar",
           "status" : true
+        },
+        {
+          "name": "Carlos Desio",
+          "country": "Argentina",
+          "cod": "ar",
+          "status" : false
         }
       ],
       "apertura": [
@@ -940,7 +946,7 @@
     },
     {
       "id": "Team16",
-      "name": "U. César Vallejo",
+      "name": "Universidad César Vallejo",
       "abbreviation": "UCV",
       "image": "./assets/images/liga-1/ucv.png",
       "alt": "UCV-logo",
@@ -1070,7 +1076,7 @@
       "alt": "UTC-logo",
       "banner": "./assets/images/liga-1/estadio-heroes-de-san-ramon.png",
       "url": "",
-      "stadium": "Héroes de San Ramón",
+      "stadium": "Germán Contreras Jara",
       "location": "Cajamarca",
       "color": {
         "c1": "#fafafa",
@@ -1313,6 +1319,195 @@
         { "home": "Team2", "away": "Team5" },
         { "home": "Team17", "away": "Team6" },
         { "home": "Team12", "away": "Team1" }
+      ]
+    },
+    "clausura": {
+      "1": [
+        { "home": "Team10", "away": "Team18" },
+        { "home": "Team8", "away": "Team7" },
+        { "home": "Team15", "away": "Team6" },
+        { "home": "Team1", "away": "Team14" },
+        { "home": "Team17", "away": "Team5" },
+        { "home": "Team9", "away": "Team11" },
+        { "home": "Team16", "away": "Team3" },
+        { "home": "Team2", "away": "Team4" },
+        { "home": "Team12", "away": "Team13" }
+      ],
+      "2": [
+        { "home": "Team7", "away": "Team1" },
+        { "home": "Team11", "away": "Team16" },
+        { "home": "Team18", "away": "Team9" },
+        { "home": "Team13", "away": "Team10" },
+        { "home": "Team3", "away": "Team2" },
+        { "home": "Team4", "away": "Team17" },
+        { "home": "Team5", "away": "Team15" },
+        { "home": "Team6", "away": "Team8" },
+        { "home": "Team14", "away": "Team12" }
+      ],
+      "3": [
+        { "home": "Team8", "away": "Team5" },
+        { "home": "Team15", "away": "Team4" },
+        { "home": "Team1", "away": "Team6" },
+        { "home": "Team14", "away": "Team7" },
+        { "home": "Team17", "away": "Team3" },
+        { "home": "Team9", "away": "Team13" },
+        { "home": "Team16", "away": "Team18" },
+        { "home": "Team2", "away": "Team11" },
+        { "home": "Team10", "away": "Team12" }
+      ],
+      "4": [
+        { "home": "Team10", "away": "Team9" },
+        { "home": "Team11", "away": "Team17" },
+        { "home": "Team18", "away": "Team2" },
+        { "home": "Team13", "away": "Team16" },
+        { "home": "Team3", "away": "Team15" },
+        { "home": "Team4", "away": "Team8" },
+        { "home": "Team5", "away": "Team1" },
+        { "home": "Team6", "away": "Team14" },
+        { "home": "Team12", "away": "Team7" }
+      ],
+      "5": [
+        { "home": "Team7", "away": "Team6" },
+        { "home": "Team8", "away": "Team3" },
+        { "home": "Team15", "away": "Team11" },
+        { "home": "Team1", "away": "Team4" },
+        { "home": "Team14", "away": "Team5" },
+        { "home": "Team17", "away": "Team18" },
+        { "home": "Team16", "away": "Team10" },
+        { "home": "Team2", "away": "Team13" },
+        { "home": "Team9", "away": "Team12" }
+      ],
+      "6": [
+        { "home": "Team10", "away": "Team2" },
+        { "home": "Team11", "away": "Team8" },
+        { "home": "Team18", "away": "Team15" },
+        { "home": "Team13", "away": "Team17" },
+        { "home": "Team3", "away": "Team1" },
+        { "home": "Team9", "away": "Team16" },
+        { "home": "Team4", "away": "Team14" },
+        { "home": "Team5", "away": "Team7" },
+        { "home": "Team12", "away": "Team6" }
+      ],
+      "7": [
+        { "home": "Team7", "away": "Team4" },
+        { "home": "Team8", "away": "Team18" },
+        { "home": "Team15", "away": "Team13" },
+        { "home": "Team1", "away": "Team11" },
+        { "home": "Team14", "away": "Team3" },
+        { "home": "Team17", "away": "Team10" },
+        { "home": "Team2", "away": "Team9" },
+        { "home": "Team6", "away": "Team5" },
+        { "home": "Team16", "away": "Team12" }
+      ],
+      "8": [
+        { "home": "Team10", "away": "Team15" },
+        { "home": "Team11", "away": "Team14" },
+        { "home": "Team18", "away": "Team1" },
+        { "home": "Team13", "away": "Team8" },
+        { "home": "Team3", "away": "Team7" },
+        { "home": "Team9", "away": "Team17" },
+        { "home": "Team4", "away": "Team6" },
+        { "home": "Team16", "away": "Team2" },
+        { "home": "Team12", "away": "Team5" }
+      ],
+      "9": [
+        { "home": "Team7", "away": "Team11" },
+        { "home": "Team15", "away": "Team9" },
+        { "home": "Team1", "away": "Team13" },
+        { "home": "Team14", "away": "Team18" },
+        { "home": "Team17", "away": "Team16" },
+        { "home": "Team5", "away": "Team4" },
+        { "home": "Team6", "away": "Team3" },
+        { "home": "Team8", "away": "Team10" },
+        { "home": "Team2", "away": "Team12" }
+      ],
+      "10": [
+        { "home": "Team10", "away": "Team1" },
+        { "home": "Team11", "away": "Team6" },
+        { "home": "Team18", "away": "Team7" },
+        { "home": "Team13", "away": "Team14" },
+        { "home": "Team3", "away": "Team5" },
+        { "home": "Team9", "away": "Team8" },
+        { "home": "Team16", "away": "Team15" },
+        { "home": "Team2", "away": "Team17" },
+        { "home": "Team12", "away": "Team4" }
+      ],
+      "11": [
+        { "home": "Team7", "away": "Team13" },
+        { "home": "Team8", "away": "Team16" },
+        { "home": "Team15", "away": "Team2" },
+        { "home": "Team1", "away": "Team9" },
+        { "home": "Team14", "away": "Team10" },
+        { "home": "Team4", "away": "Team3" },
+        { "home": "Team5", "away": "Team11" },
+        { "home": "Team6", "away": "Team18" },
+        { "home": "Team17", "away": "Team12" }
+      ],
+      "12": [
+        { "home": "Team10", "away": "Team7" },
+        { "home": "Team11", "away": "Team4" },
+        { "home": "Team18", "away": "Team5" },
+        { "home": "Team13", "away": "Team6" },
+        { "home": "Team17", "away": "Team15" },
+        { "home": "Team9", "away": "Team14" },
+        { "home": "Team16", "away": "Team1" },
+        { "home": "Team2", "away": "Team8" },
+        { "home": "Team12", "away": "Team3" }
+      ],
+      "13": [
+        { "home": "Team7", "away": "Team9" },
+        { "home": "Team1", "away": "Team2" },
+        { "home": "Team8", "away": "Team17" },
+        { "home": "Team14", "away": "Team16" },
+        { "home": "Team3", "away": "Team11" },
+        { "home": "Team4", "away": "Team18" },
+        { "home": "Team5", "away": "Team13" },
+        { "home": "Team6", "away": "Team10" },
+        { "home": "Team15", "away": "Team12" }
+      ],
+      "14": [
+        { "home": "Team15", "away": "Team8" },
+        { "home": "Team10", "away": "Team5" },
+        { "home": "Team18", "away": "Team3" },
+        { "home": "Team13", "away": "Team4" },
+        { "home": "Team17", "away": "Team1" },
+        { "home": "Team9", "away": "Team6" },
+        { "home": "Team16", "away": "Team7" },
+        { "home": "Team2", "away": "Team14" },
+        { "home": "Team12", "away": "Team11" }
+      ],
+      "15": [
+        { "home": "Team7", "away": "Team2" },
+        { "home": "Team11", "away": "Team18" },
+        { "home": "Team1", "away": "Team15" },
+        { "home": "Team14", "away": "Team17" },
+        { "home": "Team3", "away": "Team13" },
+        { "home": "Team4", "away": "Team10" },
+        { "home": "Team5", "away": "Team9" },
+        { "home": "Team6", "away": "Team16" },
+        { "home": "Team8", "away": "Team12" }
+      ],
+      "16": [
+        { "home": "Team10", "away": "Team3" },
+        { "home": "Team8", "away": "Team1" },
+        { "home": "Team15", "away": "Team14" },
+        { "home": "Team13", "away": "Team11" },
+        { "home": "Team17", "away": "Team7" },
+        { "home": "Team9", "away": "Team4" },
+        { "home": "Team16", "away": "Team5" },
+        { "home": "Team2", "away": "Team6" },
+        { "home": "Team12", "away": "Team18" }
+      ],
+      "17": [
+        { "home": "Team7", "away": "Team15" },
+        { "home": "Team11", "away": "Team10" },
+        { "home": "Team18", "away": "Team13" },
+        { "home": "Team14", "away": "Team8" },
+        { "home": "Team3", "away": "Team9" },
+        { "home": "Team4", "away": "Team16" },
+        { "home": "Team5", "away": "Team2" },
+        { "home": "Team6", "away": "Team17" },
+        { "home": "Team1", "away": "Team12" }
       ]
     }
   },

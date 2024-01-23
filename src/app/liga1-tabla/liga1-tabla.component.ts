@@ -13,7 +13,7 @@ export class Liga1TablaComponent {
     this.loadData();
   }
 
-  //Cargar Data del JSON
+  // Cargar Data del JSON
   data:any;
   loadData() {
     this.dataLoadService.loadData(1).then((data: any) => {
@@ -28,7 +28,16 @@ export class Liga1TablaComponent {
   table2:boolean = false;
   table3:boolean = true;
 
+  // Guardar el estado de la tabla seleccioada
+  activeButton: number | null = 1;
+
+  // Funcion para el cambiar de tablas
   tableSwitch(value: number): void {
+    if (this.activeButton === value) {
+      this.activeButton = null; // Desactiva el botón si ya está activo
+    } else {
+      this.activeButton = value;
+    }
     this.table1 = value === 2;
     this.table2 = value === 3;
     this.table3 = value === 1;

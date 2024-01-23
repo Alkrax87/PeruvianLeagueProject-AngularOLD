@@ -1,5 +1,5 @@
 <!-- Title -->
-<div class="container-fluid background">
+<div class="container-fluid background content-block">
   <div class="row">
     <div class="col-10 title">
       <div class="row">
@@ -10,7 +10,7 @@
   </div>
 </div>
 <!-- Description -->
-<div class="container-fluid bg-light">
+<div class="container-fluid bg-light content-block">
   <div class="row">
     <div class="col-sm-4 col-md-3 text-center">
       <p class="notes">Temporada</p>
@@ -25,25 +25,73 @@
       <p class="notes2"><b>1<sup>ra</sup> División</b></p>
     </div>
     <div class="col-sm-12 col-md-3 description-image">
-      <img src="./assets/images/liga-1/liga1fpf.png" alt="liga1logo" height="70px;">
+      <img src="./assets/images/liga-1/liga1fpf.png" alt="liga1-logo">
     </div>
   </div>
 </div>
-<!-- Divisor -->
-<div class="container-fluid divisor-type-1 shadow-lg"></div>
+<!-- Divider -->
+<div class="container-fluid divider"></div>
 <!-- Fixture -->
-<div class="container-fluid fixture-content">
+<div class="fixture-content container-fluid content-block py-5">
   <div class="row">
-    <div class="col-md-12 col-lg-10 py-5 col-xl-8">
-      <!-- Item -->
-      <div *ngFor="let item of matchesByRound; let i = index">
-        <div *ngIf="selectedFixture === null || selectedFixture === item.round">
-          <ng-container *ngIf="i === 0 || item.round !== matchesByRound[i - 1].round">
-            <p class="fixture-title">Fecha {{ item.round }}</p>
+
+    <!-- Switch Table -->
+    <div class="container-fluid switch-container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 text-center"><button (click)="fixtureSwitch(1)" class="fixture-switch" [ngClass]="{'active': activeButton === 1}"><span>Apertura</span></button></div>
+            <div class="col-sm-12 col-md-6 text-center"><button (click)="fixtureSwitch(2)" class="fixture-switch" [ngClass]="{'active': activeButton === 2}"><span>Clausura</span></button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Apertura -->
+    <div *ngIf="fixtureA" class="col-md-12 col-lg-10 col-xl-8">
+      <div *ngFor="let item of matchesByRoundA; let i = index">
+        <div *ngIf="selectedFixtureA === null || selectedFixtureA === item.round">
+          <ng-container *ngIf="i === 0 || item.round !== matchesByRoundA[i - 1].round">
+            <p class="fixture-title">Apertura Fecha {{ item.round }}</p>
             <!-- Selector -->
             <div class="select">
-              <select class="form-select" [(ngModel)]="selectedFixture">
-                <option *ngFor="let fixture of fixtureIndex" [value]="fixture">Fixture {{ fixture }}</option>
+              <select class="form-select" [(ngModel)]="selectedFixtureA">
+                <option *ngFor="let fixture of fixtureIndexA" [value]="fixture">Fecha {{ fixture }}</option>
+              </select>
+            </div>
+            <hr>
+          </ng-container>
+          <div class="container-fluid fixture-location">
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="fixture-location-form "><p><i class="fas fa-map-marker-alt"></i>&nbsp; {{ item.homeTeam.stadium }}</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid my-1 content-block fixture-item-bg">
+            <div class="fixture-row-container">
+              <div class="col fixture-name text-end W-100"><span class="name-team">{{ item.homeTeam.name }}</span><span class="abbreviation-team">{{ item.homeTeam.abbreviation }}</span></div>
+              <div class="col fixture-item"><img [src]="item.homeTeam.image" alt="{{ item.homeTeam.alt }}"></div>
+              <div class="col fixture-item result-bg">{{ item.result.home !== null ? item.result.home : '' }}</div>
+              <div class="col fixture-item result-bg">{{ item.result.away !== null ? item.result.away : '' }}</div>
+              <div class="col fixture-item"><img [src]="item.awayTeam.image" alt="{{ item.awayTeam.alt }}"></div>
+              <div class="col fixture-name text-start W-100"><span class="name-team">{{ item.awayTeam.name }}</span><span class="abbreviation-team">{{ item.awayTeam.abbreviation }}</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Clausura -->
+    <div *ngIf="fixtureC" class="col-md-12 col-lg-10 col-xl-8">
+      <div *ngFor="let item of matchesByRoundC; let i = index">
+        <div *ngIf="selectedFixtureC === null || selectedFixtureC === item.round">
+          <ng-container *ngIf="i === 0 || item.round !== matchesByRoundC[i - 1].round">
+            <p class="fixture-title">Clausura Fecha {{ item.round }}</p>
+            <!-- Selector -->
+            <div class="select">
+              <select class="form-select" [(ngModel)]="selectedFixtureC">
+                <option *ngFor="let fixture of fixtureIndexC" [value]="fixture">Fecha {{ fixture }}</option>
               </select>
             </div>
             <hr>
@@ -61,6 +109,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </div>
 

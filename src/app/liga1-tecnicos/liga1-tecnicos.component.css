@@ -1,7 +1,3 @@
-a {
-  text-decoration:none;
-  color: #ffff;
-}
 /* Ttitle */
 .background{
   background: #DC143C;
@@ -39,7 +35,15 @@ a {
 .description-image {
   text-align: end;
 }
-@media screen and (max-width: 767px) {
+.description-image img {
+  height: 70px;
+}
+@media screen and (max-width: 767.5px) {
+  .description-image {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 575.5px) {
   .background h1 {
     padding-top: 80px;
   }
@@ -53,8 +57,8 @@ a {
     text-align: center;
   }
 }
-/* Divisor */
-.divisor-type-1 {
+/* Divider */
+.divider {
   background: #DC143C;
   background-image: url('/assets/images/banners/background-pattern.svg');
   background-size: cover;
@@ -69,22 +73,30 @@ a {
   align-items: center;
   justify-content: center;
 }
-.vertical-center {
-  display: flex;
-  align-items: center;
-}
 .content-block {
   user-select: none;
 }
-/* Tabla */
+/* Table content background */
+.table-content {
+  color: #ffffff;
+  background: #161513;
+}
+/* Table */
+.table {
+  margin-bottom: 0px;
+}
 .table-header th{
   background-color: #DC143C;
   color: #fff;
 }
+th {
+  font-size: 15px;
+  height: 40px;
+}
 td {
   padding: 0px;
   white-space: nowrap;
-  font-size: 16px;
+  font-size: 15px;
 }
 .t-w-dt{
   min-width: 200px;
@@ -95,30 +107,33 @@ td {
 .manager-status {
   padding: 0px;
 }
-.manager-active {
-  background: #d8b145;
-  width: 6px;
-  height: 50px;
-  padding: 0px;
-}
-.manager-disable {
-  background: #0f0e0b;
-  width: 6px;
-  height: 42px;
-  padding: 0px;
-}
 .logos{
   width: 35px;
 }
 .flag{
   font-size: 25px;
 }
-.table-info {
-  padding: 10px;
-}
 .line-table {
   background: linear-gradient(270deg,#DC143C,#d8b145);
   width: 6px;
   height: 5px;
   width: auto;
+}
+.table-info {
+  padding: 10px;
+  background-color: #fff;
+}
+/* Manager Status */
+.status {
+  width: 6px;
+  height: 39px;
+  padding: 0px;
+}
+.manager-active {
+  background: #d8b145;
+  color: #d8b145;
+}
+.manager-disable {
+  background: #a00424;
+  color: #a00424;
 }

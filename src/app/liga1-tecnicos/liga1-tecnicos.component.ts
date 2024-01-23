@@ -23,7 +23,7 @@ export class Liga1TecnicosComponent {
     this.loadData();
   }
 
-  //Cargar Data del JSON
+  // Cargar Data del JSON
   data:any;
   loadData() {
     this.dataLoadService.loadData(1).then((data: any) => {
@@ -34,9 +34,8 @@ export class Liga1TecnicosComponent {
     });
   }
 
-  //Gestionar la informacion de tecnicos
+  // Gestionar la información de tecnicos
   dt: DtItem[] = [];
-  nDT:any = '';
   processData (teams:any[]) {
     for (let item of teams) {
       for (let i = 0; i < item.dt.length; i++) {

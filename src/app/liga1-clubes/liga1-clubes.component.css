@@ -1,7 +1,3 @@
-a {
-  text-decoration:none;
-  color: #ffff;
-}
 /* Ttitle */
 .background{
   background: #DC143C;
@@ -39,7 +35,15 @@ a {
 .description-image {
   text-align: end;
 }
-@media screen and (max-width: 767px) {
+.description-image img {
+  height: 70px;
+}
+@media screen and (max-width: 767.5px) {
+  .description-image {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 575.5px) {
   .background h1 {
     padding-top: 80px;
   }
@@ -53,8 +57,8 @@ a {
     text-align: center;
   }
 }
-/* Divisor */
-.divisor-type-1 {
+/* Divider */
+.divider {
   background: #DC143C;
   background-image: url('/assets/images/banners/background-pattern.svg');
   background-size: cover;
@@ -69,21 +73,23 @@ a {
   align-items: center;
   justify-content: center;
 }
+.content-block {
+  user-select: none;
+}
+a {
+  text-decoration:none;
+  color: #ffff;
+}
+/* Cards */
+.card:hover img {
+  transform: scale(1.2);
+}
+.card img {
+  transition: all 2s ease;
+}
 .item {
   background: #161513;
   color: #fafafa;
-}
-.item .card-img {
-  max-width: 90px;
-}
-.card-img img {
-  width: 64px;
-}
-a:hover img {
-  transform: scale(1.2);
-}
-a img {
-  transition: all 2s ease;
 }
 .item p {
   margin: 0px;
@@ -91,11 +97,19 @@ a img {
 .item i {
   padding-left: 5px;
 }
+.item .card-img {
+  max-width: 80px;
+}
+.card-img img {
+  width: 64px;
+}
+.club-stadium {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .item-location{
   font-size: 12px;
-}
-.logos{
-  width: 35px;
 }
 /* Tabla */
 .table-header th{

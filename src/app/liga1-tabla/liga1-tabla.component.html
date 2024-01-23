@@ -1,18 +1,16 @@
 <!-- Title -->
-<div class="container-fluid background">
+<div class="container-fluid background content-block">
   <div class="row">
-    <div class="col"></div>
     <div class="col-10 title">
       <div class="row">
         <p class="arrow">HOME<i class="fas fa-chevron-right"></i>LIGA 1<i class="fas fa-chevron-right"></i><span>TABLA</span></p>
       </div>
       <h1><b>Tabla</b></h1>
     </div>
-    <div class="col"></div>
   </div>
 </div>
 <!-- Description -->
-<div class="container-fluid bg-light">
+<div class="container-fluid bg-light content-block">
   <div class="row">
     <div class="col-sm-4 col-md-3 text-center">
       <p class="notes">Temporada</p>
@@ -27,24 +25,24 @@
       <p class="notes2"><b>1<sup>ra</sup> División</b></p>
     </div>
     <div class="col-sm-12 col-md-3 description-image">
-      <img src="./assets/images/liga-1/liga1fpf.png" alt="liga1logo" height="70px;">
+      <img src="./assets/images/liga-1/liga1fpf.png" alt="liga1-logo">
     </div>
   </div>
 </div>
-<!-- Divisor -->
-<div class="container-fluid divisor-type-1 shadow-lg"></div>
+<!-- Divider -->
+<div class="container-fluid divider"></div>
 <!-- Tables -->
-<div class="container-fluid my-5 content-block">
+<div class="table-content container-fluid content-block py-5">
   <div class="row">
 
     <!-- Switch Table -->
-    <div class="container-fluid">
+    <div class="container-fluid switch-container">
       <div class="row">
-        <div class="col-5">
+        <div class="col-sm-12 col-md-9 ">
           <div class="row">
-            <div class="col"><button class="btn btn-primary" (click)="tableSwitch(1)">Acumulado</button></div>
-            <div class="col"><button class="btn btn-primary" (click)="tableSwitch(2)">Apertura</button></div>
-            <div class="col"><button class="btn btn-primary" (click)="tableSwitch(3)">Clausura</button></div>
+            <div class="col-sm-12 col-md-4 text-center"><button (click)="tableSwitch(1)" class="table-switch" [ngClass]="{'active': activeButton === 1}"><span>Acumulado</span></button></div>
+            <div class="col-sm-12 col-md-4 text-center"><button (click)="tableSwitch(2)" class="table-switch" [ngClass]="{'active': activeButton === 2}"><span>Apertura</span></button></div>
+            <div class="col-sm-12 col-md-4 text-center"><button (click)="tableSwitch(3)" class="table-switch" [ngClass]="{'active': activeButton === 3}"><span>Clausura</span></button></div>
           </div>
         </div>
       </div>
@@ -53,30 +51,29 @@
     <!-- Apertura -->
     <div *ngIf="table1" class="col-md-12 col-lg-10 col-xl-8">
       <div class="table-responsive">
+        <!-- Table -->
         <table class="table align-middle">
           <thead class="table-header">
             <tr class="text-center">
-              <th></th>
-              <th>#</th>
-              <th>Escudo</th>
-              <th class="text-start w-25">Nombre</th>
-              <th class="w-10">Puntos</th>
-              <th class="w-5">PJ</th>
-              <th class="w-5">PG</th>
-              <th class="w-5">PE</th>
-              <th class="w-5">PP</th>
-              <th class="w-5">GF</th>
-              <th class="w-5">GC</th>
-              <th class="w-5">DG</th>
-              <th class="w-20">Últimos 5</th>
+              <th scope="col"></th>
+              <th scope="col">#</th>
+              <th scope="col" class="text-start w-25">Nombre</th>
+              <th scope="col" class="w-10">Puntos</th>
+              <th scope="col" class="w-5">PJ</th>
+              <th scope="col" class="w-5">PG</th>
+              <th scope="col" class="w-5">PE</th>
+              <th scope="col" class="w-5">PP</th>
+              <th scope="col" class="w-5">GF</th>
+              <th scope="col" class="w-5">GC</th>
+              <th scope="col" class="w-5">DG</th>
+              <th scope="col" class="t-w-lg">Últimos 5</th>
             </tr>
           </thead>
           <tbody *ngIf="data">
             <tr class="text-center" *ngFor="let item of data.Teams">
-              <th class="team-status"><div *ngIf="data.Teams.indexOf(item) == 0;" class="winner"></div></th>
+              <th class="team-status"><div *ngIf="data.Teams.indexOf(item) == 0;" class="clasifier winner"></div></th>
               <th>{{ 1 + data.Teams.indexOf(item) }}</th>
-              <td><img class="logos" [src]="item.image" [alt]="item.alt"></td>
-              <td class="text-start"><a href="{{ item.url }}">{{ item.name }}</a></td>
+              <td class="text-start"><a href="{{ item.url }}"><img class="logos" src="{{ item.image }}" alt="{{ item.alt }}">&nbsp; {{ item.name }}</a></td>
               <td class="fw-bold" id="">0</td>
               <td id="">0</td>
               <td id="">0</td>
@@ -96,12 +93,12 @@
           </tbody>
         </table>
       </div>
-      <!-- Descripción -->
+      <!-- Table Footer -->
       <div class="line-table"></div>
       <div class="table-info">
         <h6 class="text-start"><b>Estado</b></h6>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#d8b145"></i>
+          <i class="fas fa-square winner"></i>
           <span class="mx-2">Ganador Apertura</span>
         </div>
       </div>
@@ -111,30 +108,29 @@
     <!-- Clausura -->
     <div *ngIf="table2" class="col-md-12 col-lg-10 col-xl-8">
       <div class="table-responsive">
+        <!-- Table -->
         <table class="table align-middle">
           <thead class="table-header">
             <tr class="text-center">
-              <th></th>
-              <th>#</th>
-              <th>Escudo</th>
-              <th class="text-start w-25">Nombre</th>
-              <th class="w-10">Puntos</th>
-              <th class="w-5">PJ</th>
-              <th class="w-5">PG</th>
-              <th class="w-5">PE</th>
-              <th class="w-5">PP</th>
-              <th class="w-5">GF</th>
-              <th class="w-5">GC</th>
-              <th class="w-5">DG</th>
-              <th class="w-20">Últimos 5</th>
+              <th scope="col"></th>
+              <th scope="col">#</th>
+              <th scope="col" class="text-start w-25">Nombre</th>
+              <th scope="col" class="w-10">Puntos</th>
+              <th scope="col" class="w-5">PJ</th>
+              <th scope="col" class="w-5">PG</th>
+              <th scope="col" class="w-5">PE</th>
+              <th scope="col" class="w-5">PP</th>
+              <th scope="col" class="w-5">GF</th>
+              <th scope="col" class="w-5">GC</th>
+              <th scope="col" class="w-5">DG</th>
+              <th scope="col" class="t-w-lg">Últimos 5</th>
             </tr>
           </thead>
           <tbody *ngIf="data">
             <tr class="text-center" *ngFor="let item of data.Teams">
-              <th class="team-status"><div *ngIf="data.Teams.indexOf(item) == 0;" class="winner"></div></th>
+              <th class="team-status"><div *ngIf="data.Teams.indexOf(item) == 0;" class="clasifier winner"></div></th>
               <th>{{ 1 + data.Teams.indexOf(item) }}</th>
-              <td><img class="logos" [src]="item.image" [alt]="item.alt"></td>
-              <td class="text-start"><a href="{{ item.url }}">{{ item.name }}</a></td>
+              <td class="text-start"><a href="{{ item.url }}"><img class="logos" src="{{ item.image }}" alt="{{ item.alt }}">&nbsp; {{ item.name }}</a></td>
               <td class="fw-bold" id="">0</td>
               <td id="">0</td>
               <td id="">0</td>
@@ -154,12 +150,12 @@
           </tbody>
         </table>
       </div>
-      <!-- Descripción -->
+      <!-- Table Footer -->
       <div class="line-table"></div>
       <div class="table-info">
         <h6 class="text-start"><b>Estado</b></h6>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#d8b145"></i>
+          <i class="fas fa-square winner"></i>
           <span class="mx-2">Ganador Clausura</span>
         </div>
       </div>
@@ -169,30 +165,29 @@
     <!-- Acumulado -->
     <div *ngIf="table3" class="col-md-12 col-lg-10 col-xl-8">
       <div class="table-responsive">
+        <!-- Table -->
         <table class="table align-middle">
           <thead class="table-header">
             <tr class="text-center">
-              <th></th>
-              <th>#</th>
-              <th>Escudo</th>
-              <th class="text-start w-25">Nombre</th>
-              <th class="w-10">Puntos</th>
-              <th class="w-5">PJ</th>
-              <th class="w-5">PG</th>
-              <th class="w-5">PE</th>
-              <th class="w-5">PP</th>
-              <th class="w-5">GF</th>
-              <th class="w-5">GC</th>
-              <th class="w-5">DG</th>
-              <th class="w-20">Últimos 5</th>
+              <th scope="col"></th>
+              <th scope="col">#</th>
+              <th scope="col" class="text-start w-25">Nombre</th>
+              <th scope="col" class="w-10">Puntos</th>
+              <th scope="col" class="w-5">PJ</th>
+              <th scope="col" class="w-5">PG</th>
+              <th scope="col" class="w-5">PE</th>
+              <th scope="col" class="w-5">PP</th>
+              <th scope="col" class="w-5">GF</th>
+              <th scope="col" class="w-5">GC</th>
+              <th scope="col" class="w-5">DG</th>
+              <th scope="col" class="t-w-lg">Últimos 5</th>
             </tr>
           </thead>
           <tbody *ngIf="data">
             <tr class="text-center" *ngFor="let item of data.Teams">
-              <th class="team-status"><div [ngClass]="{'winner': data.Teams.indexOf(item) === 0, 'libertadores': data.Teams.indexOf(item) >= 0 && data.Teams.indexOf(item) <= 3, 'sudamericana': data.Teams.indexOf(item) >= 4 && data.Teams.indexOf(item) <= 6, 'relegation': data.Teams.indexOf(item) >= 16 && data.Teams.indexOf(item) <= 17}"></div></th>
+              <th class="team-status"><div class="clasifier" [ngClass]="{'libertadores': data.Teams.indexOf(item) >= 0 && data.Teams.indexOf(item) <= 3, 'sudamericana': data.Teams.indexOf(item) >= 4 && data.Teams.indexOf(item) <= 6, 'relegation': data.Teams.indexOf(item) >= 16 && data.Teams.indexOf(item) <= 17}"></div></th>
               <th>{{ 1 + data.Teams.indexOf(item) }}</th>
-              <td><img class="logos" [src]="item.image" [alt]="item.alt"></td>
-              <td class="text-start"><a href="{{ item.url }}">{{ item.name }}</a></td>
+              <td class="text-start"><a href="{{ item.url }}"><img class="logos" src="{{ item.image }}" alt="{{ item.alt }}">&nbsp; {{ item.name }}</a></td>
               <td class="fw-bold" id="">0</td>
               <td id="">0</td>
               <td id="">0</td>
@@ -212,20 +207,20 @@
           </tbody>
         </table>
       </div>
-      <!-- Descripción -->
+      <!-- Table Footer -->
       <div class="line-table"></div>
       <div class="table-info">
         <h6 class="text-start"><b>Clasificación / Descenso</b></h6>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#FBBC04"></i>
+          <i class="fas fa-square libertadores"></i>
           <span class="mx-2">Copa Libertadores</span>
         </div>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#34A853"></i>
+          <i class="fas fa-square sudamericana"></i>
           <span class="mx-2">Copa Sudamericana</span>
         </div>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#c1272d"></i>
+          <i class="fas fa-square relegation"></i>
           <span class="mx-2">Descenso</span>
         </div>
       </div>
