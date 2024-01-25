@@ -1,8 +1,4 @@
-a {
-  text-decoration:none;
-  color: #000;
-}
-/* Ttitle */
+/* Title */
 .background{
   background: #DC143C;
   background-image: url('/assets/images/banners/background-pattern.svg');
@@ -27,7 +23,6 @@ a {
 }
 /* Description */
 .notes {
-  padding-top: 20px;
   margin-bottom: 0px;
   font-size: 12px;
   font-style: italic;
@@ -35,11 +30,20 @@ a {
 .notes2 {
   font-size: 16px;
   white-space: nowrap;
+  margin: 0px;
 }
 .description-image {
   text-align: end;
 }
-@media screen and (max-width: 767px) {
+.description-image img {
+  height: 70px;
+}
+@media screen and (max-width: 767.5px) {
+  .description-image {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 575.5px) {
   .background h1 {
     padding-top: 80px;
   }
@@ -53,8 +57,8 @@ a {
     text-align: center;
   }
 }
-/* Divisor */
-.divisor-type-1 {
+/* Divider */
+.divider {
   background: #DC143C;
   background-image: url('/assets/images/banners/background-pattern.svg');
   background-size: cover;
@@ -69,22 +73,38 @@ a {
   align-items: center;
   justify-content: center;
 }
-.vertical-center {
-  display: flex;
-  align-items: center;
-}
 .content-block {
   user-select: none;
 }
-/* Tabla */
+a {
+  text-decoration:none;
+  color: #000;
+}
+/* Table content background */
+.table-content {
+  color: #ffffff;
+  background: #161513;
+}
+/* Table */
+.table {
+  margin-bottom: 0px;
+}
 .table-header th{
   background-color: #DC143C;
   color: #fff;
 }
+th {
+  font-size: 15px;
+  height: 40px;
+}
 td {
   padding: 0px;
   white-space: nowrap;
-  font-size: 16px;
+  font-size: 15px;
+}
+.t-w-lg{
+  max-width: 130px;
+  min-width: 130px;
 }
 .team-status {
   padding: 0px;
@@ -92,14 +112,15 @@ td {
 .logos{
   width: 35px;
 }
-.table-info {
-  padding: 10px;
-}
 .line-table {
   background: linear-gradient(270deg,#DC143C,#d8b145);
   width: 6px;
   height: 5px;
   width: auto;
+}
+.table-info {
+  padding: 10px;
+  background-color: #fff;
 }
 /* Icons Color */
 .win {
@@ -118,21 +139,46 @@ td {
   font-size: 18px;
 }
 /* Clasifiers */
+.clasifier {
+  width: 6px;
+  height: 39px;
+  padding: 0px;
+}
 .promotion {
   background: #27943C;
-  width: 6px;
-  height: 40px;
-  padding: 0px;
+  color: #27943C;
 }
 .play-off {
   background: #a1cb40;
-  width: 6px;
-  height: 40px;
-  padding: 0px;
+  color: #a1cb40;
 }
 .relegation {
   background: #c1272d;
-  width: 6px;
-  height: 40px;
-  padding: 0px;
+  color: #c1272d;
+}
+/* Play-off content */
+.title-play-off {
+  height: 100%;
+}
+.title-play-off {
+  display: flex;
+  align-items: center;
+}
+.description-play-off {
+  height: 70px;
+}
+@media screen and (max-width: 575.5px) {
+  .title-play-off h1{
+    padding: 0px;
+  }
+  .title-play-off div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title-play-off h1{
+    font-size: 50px;
+  }
 }

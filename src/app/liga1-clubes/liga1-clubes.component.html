@@ -12,15 +12,15 @@
 <!-- Description -->
 <div class="container-fluid bg-light content-block">
   <div class="row">
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Temporada</p>
       <b class="notes2">{{ data && data.Info ? data.Info.temporada : '' }}</b>
     </div>
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Equipos</p>
       <b class="notes2">{{ data && data.Info ? data.Info.equipos : '' }}</b>
     </div>
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Categoría</p>
       <p class="notes2"><b>1<sup>ra</sup> División</b></p>
     </div>
@@ -32,11 +32,11 @@
 <!-- Divider -->
 <div class="container-fluid divider"></div>
 <!-- Teams -->
-<div class="container-fluid my-4 content-block">
+<div class="team-content container-fluid py-5 content-block">
   <div class="row">
     <div class="col-sm-12 col-md-11 team-list">
       <div *ngIf="data" class="row">
-        <div *ngFor="let item of data.Teams" class="col-lg-4 col-md-6 col-sm-12 py-3">
+        <div *ngFor="let item of data.Teams" class="col-lg-4 col-md-6 col-sm-12 py-2">
           <a class="card" [href]="item.url">
             <div class="item py-5 px-4" [ngStyle]="{ 'background-color': (hoveredItem === item) ? item.color.c2 : '', 'color': (hoveredItem === item) ? item.color.c3 : '' }" (mouseover)="onItemHover(item)" (mouseout)="onItemLeave()">
               <div class="row ">

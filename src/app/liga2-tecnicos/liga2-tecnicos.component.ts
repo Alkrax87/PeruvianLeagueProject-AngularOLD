@@ -34,9 +34,8 @@ export class Liga2TecnicosComponent {
     });
   }
 
-  //Gestionar la informacion de tecnicos
+  // Gestionar la información de tecnicos
   dt: DtItem[] = [];
-  nDT:any = '';
   processData (teams:any[]) {
     for (let item of teams) {
       for (let i = 0; i < item.dt.length; i++) {

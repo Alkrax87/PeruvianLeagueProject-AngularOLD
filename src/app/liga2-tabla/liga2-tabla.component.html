@@ -1,185 +1,65 @@
 <!-- Title -->
-<div class="container-fluid background">
+<div class="container-fluid background content-block">
   <div class="row">
-    <div class="col"></div>
     <div class="col-10 title">
       <div class="row">
         <p class="arrow">HOME<i class="fas fa-chevron-right"></i>LIGA 2<i class="fas fa-chevron-right"></i><span>TABLA</span></p>
       </div>
       <h1><b>Tabla</b></h1>
     </div>
-    <div class="col"></div>
   </div>
 </div>
 <!-- Description -->
-<div class="container-fluid bg-light">
+<div class="container-fluid bg-light content-block">
   <div class="row">
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Temporada</p>
       <b class="notes2">{{ data && data.Info ? data.Info.temporada : '' }}</b>
     </div>
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Equipos</p>
       <b class="notes2">{{ data && data.Info ? data.Info.equipos : '' }}</b>
     </div>
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Categoría</p>
       <p class="notes2"><b>2<sup>da</sup> División</b></p>
     </div>
     <div class="col-sm-12 col-md-3 description-image">
-      <img src="./assets/images/liga-2/liga2fpf.png" alt="liga2logo" height="70px;">
+      <img src="./assets/images/liga-2/liga2fpf.png" alt="liga2-logo">
     </div>
   </div>
 </div>
-<!-- Divisor -->
-<div class="container-fluid divisor-type-1 shadow-lg"></div>
-<!-- Tables -->
-<div class="container-fluid my-5 content-block">
+<!-- Divider -->
+<div class="container-fluid divider"></div>
+<!-- Table -->
+<div class="table-content container-fluid content-block py-5">
   <div class="row">
 
-    <!-- Apertura -->
-    <div *ngIf="table1" class="col-md-12 col-lg-10 col-xl-8">
-      <div class="table-responsive">
-        <table class="table table align-middle">
-          <thead class="table-header">
-            <tr class="text-center">
-              <th></th>
-              <th>#</th>
-              <th>Escudo</th>
-              <th class="text-start w-25">Nombre</th>
-              <th class="w-10">Puntos</th>
-              <th class="w-5">PJ</th>
-              <th class="w-5">PG</th>
-              <th class="w-5">PE</th>
-              <th class="w-5">PP</th>
-              <th class="w-5">GF</th>
-              <th class="w-5">GC</th>
-              <th class="w-5">DG</th>
-              <th class="w-20">Últimos 5</th>
-            </tr>
-          </thead>
-          <tbody *ngIf="data">
-            <tr class="text-center" *ngFor="let item of data.Teams">
-              <th><div></div></th>
-              <th>{{ 1 + data.Teams.indexOf(item) }}</th>
-              <td><img class="logos" [src]="item.image" [alt]="item.alt"></td>
-              <td class="text-start"><a href="{{ item.url }}">{{ item.name }}</a></td>
-              <td class="fw-bold" id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td>
-                <i class="fas fa-circle draw"></i>
-                <i class="fas fa-circle draw"></i>
-                <i class="fas fa-circle draw"></i>
-                <i class="fas fa-circle draw"></i>
-                <i class="fas fa-circle draw"></i>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <!-- Descripción -->
-      <div class="line-table"></div>
-      <div class="table-info">
-        <h6 class="text-start"><b>Estado</b></h6>
-        <div class="text-start">
-          <i class="fas fa-square square" style="color:#d8b145"></i>
-          <span class="mx-2">Ganador Apertura</span>
-        </div>
-      </div>
-      <div class="line-table"></div>
-    </div>
-
-    <!-- Clausura -->
-    <div *ngIf="table2" class="col-md-12 col-lg-10 col-xl-8">
-      <div class="table-responsive">
-        <table class="table table align-middle">
-          <thead class="table-header">
-            <tr class="text-center">
-              <th></th>
-              <th>#</th>
-              <th>Escudo</th>
-              <th class="text-start w-25">Nombre</th>
-              <th class="w-10">Puntos</th>
-              <th class="w-5">PJ</th>
-              <th class="w-5">PG</th>
-              <th class="w-5">PE</th>
-              <th class="w-5">PP</th>
-              <th class="w-5">GF</th>
-              <th class="w-5">GC</th>
-              <th class="w-5">DG</th>
-              <th class="w-20">Últimos 5</th>
-            </tr>
-          </thead>
-          <tbody *ngIf="data">
-            <tr class="text-center" *ngFor="let item of data.Teams">
-              <th><div></div></th>
-              <th>{{ 1 + data.Teams.indexOf(item) }}</th>
-              <td><img class="logos" [src]="item.image" [alt]="item.alt"></td>
-              <td class="text-start"><a href="{{ item.url }}">{{ item.name }}</a></td>
-              <td class="fw-bold" id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td>
-                <i class="fas fa-circle draw"></i>
-                <i class="fas fa-circle draw"></i>
-                <i class="fas fa-circle draw"></i>
-                <i class="fas fa-circle draw"></i>
-                <i class="fas fa-circle draw"></i>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <!-- Descripción -->
-      <div class="line-table"></div>
-      <div class="table-info">
-        <h6 class="text-start"><b>Estado</b></h6>
-        <div class="text-start">
-          <i class="fas fa-square square" style="color:#d8b145"></i>
-          <span class="mx-2">Ganador Clausura</span>
-        </div>
-      </div>
-      <div class="line-table"></div>
-    </div>
-
     <!-- Acumulado -->
-    <div *ngIf="table3" class="col-md-12 col-lg-10 col-xl-8">
+    <div class="col-md-12 col-lg-10 col-xl-8">
       <div class="table-responsive">
-        <table class="table table align-middle">
+        <table class="table align-middle">
           <thead class="table-header">
             <tr class="text-center">
-              <th></th>
-              <th>#</th>
-              <th>Escudo</th>
-              <th class="text-start w-25">Nombre</th>
-              <th class="w-10">Puntos</th>
-              <th class="w-5">PJ</th>
-              <th class="w-5">PG</th>
-              <th class="w-5">PE</th>
-              <th class="w-5">PP</th>
-              <th class="w-5">GF</th>
-              <th class="w-5">GC</th>
-              <th class="w-5">DG</th>
-              <th class="w-20">Últimos 5</th>
+              <th scope="col"></th>
+              <th scope="col">#</th>
+              <th scope="col" class="text-start w-25">Nombre</th>
+              <th scope="col" class="w-10">Puntos</th>
+              <th scope="col" class="w-5">PJ</th>
+              <th scope="col" class="w-5">PG</th>
+              <th scope="col" class="w-5">PE</th>
+              <th scope="col" class="w-5">PP</th>
+              <th scope="col" class="w-5">GF</th>
+              <th scope="col" class="w-5">GC</th>
+              <th scope="col" class="w-5">DG</th>
+              <th scope="col" class="t-w-lg">Últimos 5</th>
             </tr>
           </thead>
           <tbody *ngIf="data">
             <tr class="text-center" *ngFor="let item of data.Teams">
-              <th><div></div></th>
+              <th class="team-status"><div class="clasifier" [ngClass]="{'promotion': data.Teams.indexOf(item) == 0 , 'play-off ': data.Teams.indexOf(item) >= 1 && data.Teams.indexOf(item) <= 4, 'relegation': data.Teams.indexOf(item) >= 16 && data.Teams.indexOf(item) <= 17}"></div></th>
               <th>{{ 1 + data.Teams.indexOf(item) }}</th>
-              <td><img class="logos" [src]="item.image" [alt]="item.alt"></td>
-              <td class="text-start"><a href="{{ item.url }}">{{ item.name }}</a></td>
+              <td class="text-start"><a href="{{ item.url }}"><img class="logos" src="{{ item.image }}" alt="{{ item.alt }}">&nbsp; {{ item.name }}</a></td>
               <td class="fw-bold" id="">0</td>
               <td id="">0</td>
               <td id="">0</td>
@@ -199,20 +79,20 @@
           </tbody>
         </table>
       </div>
-      <!-- Descripción -->
+      <!-- Table Footer -->
       <div class="line-table"></div>
       <div class="table-info">
         <h6 class="text-start"><b>Ascenso / Descenso</b></h6>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#27943C"></i>
+          <i class="fas fa-square promotion"></i>
           <span class="mx-2">Campeón</span>
         </div>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#a1cb40"></i>
+          <i class="fas fa-square play-off"></i>
           <span class="mx-2">Play-Offs</span>
         </div>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#c1272d"></i>
+          <i class="fas fa-square relegation"></i>
           <span class="mx-2">Descenso</span>
         </div>
       </div>
@@ -221,3 +101,23 @@
 
   </div>
 </div>
+<!-- Play-OFF -->
+<div class="container-fluid background content-block">
+  <div class="row title-play-off">
+    <div class="col-10">
+      <h1><b>Play-Off</b></h1>
+    </div>
+  </div>
+</div>
+<!-- Description -->
+<div class="container-fluid bg-light content-block">
+  <div class="row description-play-off">
+    <div class="col-12 text-center">
+      <p class="notes">Descripción</p>
+      <b class="notes2">Equipos ubicados del 2° al 5° lugar</b>
+    </div>
+  </div>
+</div>
+<!-- Divider -->
+<div class="container-fluid divider"></div>
+<!-- Fixture Content -->

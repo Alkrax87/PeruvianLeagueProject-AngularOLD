@@ -12,15 +12,15 @@
 <!-- Description -->
 <div class="container-fluid bg-light content-block">
   <div class="row">
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Temporada</p>
       <b class="notes2">{{ data && data.Info ? data.Info.temporada : '' }}</b>
     </div>
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Equipos</p>
       <b class="notes2">{{ data && data.Info ? data.Info.equipos : '' }}</b>
     </div>
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Categoría</p>
       <p class="notes2"><b>1<sup>ra</sup> División</b></p>
     </div>
@@ -64,7 +64,7 @@
           <div class="container-fluid fixture-location">
             <div class="row">
               <div class="col-12 text-center">
-                <div class="fixture-location-form "><p><i class="fas fa-map-marker-alt"></i>&nbsp; {{ item.homeTeam.stadium }}</p></div>
+                <div class="fixture-location-form "><p><i class="fas fa-map-marker-alt"></i>&nbsp; {{ item.homeTeam.stadium ? item.homeTeam.stadium : 'Por Definir' }}</p></div>
               </div>
             </div>
           </div>
@@ -96,6 +96,13 @@
             </div>
             <hr>
           </ng-container>
+          <div class="container-fluid fixture-location">
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="fixture-location-form "><p><i class="fas fa-map-marker-alt"></i>&nbsp; {{ item.homeTeam.stadium ? item.homeTeam.stadium : 'Por Definir' }}</p></div>
+              </div>
+            </div>
+          </div>
           <div class="container-fluid my-1 content-block fixture-item-bg">
             <div class="fixture-row-container">
               <div class="col fixture-name text-end W-100"><span class="name-team">{{ item.homeTeam.name }}</span><span class="abbreviation-team">{{ item.homeTeam.abbreviation }}</span></div>
@@ -112,6 +119,3 @@
 
   </div>
 </div>
-
-
-

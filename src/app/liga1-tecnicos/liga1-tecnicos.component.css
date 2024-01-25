@@ -1,4 +1,4 @@
-/* Ttitle */
+/* Title */
 .background{
   background: #DC143C;
   background-image: url('/assets/images/banners/background-pattern.svg');
@@ -23,7 +23,6 @@
 }
 /* Description */
 .notes {
-  padding-top: 20px;
   margin-bottom: 0px;
   font-size: 12px;
   font-style: italic;
@@ -31,6 +30,7 @@
 .notes2 {
   font-size: 16px;
   white-space: nowrap;
+  margin: 0px;
 }
 .description-image {
   text-align: end;

@@ -22,15 +22,4 @@ export class Liga2TablaComponent {
       console.error('Error al cargar datos en el componente:', error);
     });
   }
-
-  //Table Status
-  table1:boolean = false;
-  table2:boolean = false;
-  table3:boolean = true;
-
-  tableSwitch(value: number): void {
-    this.table1 = value === 2;
-    this.table2 = value === 3;
-    this.table3 = value === 1;
-  }
 }

@@ -44,15 +44,15 @@
   <!-- Description -->
   <div class="container-fluid bg-light">
     <div class="row">
-      <div class="col-sm-4 col-md-3 text-center">
+      <div class="col-sm-4 col-md-3 text-center py-2">
         <p class="notes">Temporada</p>
         <b class="notes2">{{ data && data.Info ? data.Info.temporada : '' }}</b>
       </div>
-      <div class="col-sm-4 col-md-3 text-center">
+      <div class="col-sm-4 col-md-3 text-center py-2">
         <p class="notes">Equipos</p>
         <b class="notes2">{{ data && data.Info ? data.Info.equipos : '' }}</b>
       </div>
-      <div class="col-sm-4 col-md-3 text-center">
+      <div class="col-sm-4 col-md-3 text-center py-2">
         <p class="notes">Categoría</p>
         <p class="notes2"><b>1<sup>ra</sup> División</b></p>
       </div>
@@ -61,8 +61,8 @@
       </div>
     </div>
   </div>
-  <!-- Divisor -->
-  <div class="container-fluid divisor-type-1"></div>
+  <!-- Divider -->
+  <div class="container-fluid divider"></div>
   <!-- Mapa -->
   <div class="container-fluid bg-light py-5 px-5 text-center content-block">
     <div class="row vertical-center">
@@ -265,7 +265,7 @@
               <div class="col-10">
                 <p><b>Perú 4</b></p>
                 <div class="lineS"></div>
-                <p>Octavo Lugar de la Liga 1</p>
+                <p>Campeón de la Copa Bicentenario</p>
               </div>
             </div>
           </div>
@@ -279,12 +279,15 @@
       <div class="col-sm-12 col-md-5">
         <div class="title">Descenso</div>
         <div class="line my-3"></div>
-        <p>Para la presente temporada los equipos ubicados en las <b> 2 últimas posiciones</b> descenderán a la <b>Liga 2</b>.</p>
+        <p>En la temporada actual, los equipos situados en las <b>2 últimas posiciones</b> al término de la fase regular sufrirán el <b>descenso directo de categoría</b>, relegándolos a participar en la <b>Liga 2</b>.</p>
       </div>
       <div class="col-sm-12 col-md-3">
         <img class="img-fluid" alt="liga-2" style="width: 450px; border-radius: 30px;" src="https://liga2peru.carrd.co/assets/images/image01.jpg?v98201726126851">
       </div>
     </div>
   </div>
+  <!-- Divider -->
+  <div class="container-fluid divider"></div>
 </div>
 <router-outlet></router-outlet>
+<app-footer></app-footer>

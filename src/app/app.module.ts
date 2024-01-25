@@ -20,10 +20,10 @@ import { Liga1FixtureComponent } from './liga1-fixture/liga1-fixture.component';
 import { Liga1TablaComponent } from './liga1-tabla/liga1-tabla.component';
 import { Liga1TecnicosComponent } from './liga1-tecnicos/liga1-tecnicos.component';
 import { Liga2ClubesComponent } from './liga2-clubes/liga2-clubes.component';
+import { Liga2FixtureComponent } from './liga2-fixture/liga2-fixture.component';
 import { Liga2TablaComponent } from './liga2-tabla/liga2-tabla.component';
 import { Liga2TecnicosComponent } from './liga2-tecnicos/liga2-tecnicos.component';
-
-
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes:Routes=[
   { path:'', component:HomeComponent },
@@ -35,6 +35,7 @@ const appRoutes:Routes=[
   ] },
   { path:'liga2', component:Liga2Component, children:[
     {path: 'clubes', component:Liga2ClubesComponent},
+    {path: 'fixture', component:Liga2FixtureComponent},
     {path: 'tabla', component:Liga2TablaComponent},
     {path: 'tecnicos', component:Liga2TecnicosComponent}
   ] },
@@ -61,9 +62,11 @@ const appRoutes:Routes=[
     Liga1TablaComponent,
     Liga1TecnicosComponent,
     Liga2ClubesComponent,
+    Liga2FixtureComponent,
     Liga2TablaComponent,
     Liga2TecnicosComponent,
-    TopBarComponent
+    TopBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule, FormsModule, RouterModule.forRoot(appRoutes)

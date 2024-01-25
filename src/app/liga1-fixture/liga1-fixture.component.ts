@@ -1,4 +1,3 @@
-// Liga1FixtureComponent.ts
 import { Component, OnInit } from '@angular/core';
 import { DataLoadServiceService } from '../data-load-service.service';
 
@@ -33,7 +32,7 @@ export class Liga1FixtureComponent implements OnInit {
   selectedFixtureA: any;
   selectedFixtureC: any;
 
-  //Fixture Status
+  // Estado del torneo en juego
   fixtureA:boolean = false;
   fixtureC:boolean = false;
 
@@ -109,11 +108,16 @@ export class Liga1FixtureComponent implements OnInit {
       //Iteramos en cada llave dentro de round para asignar los resultados de cada partido
       round.forEach((match: { home: string; away: string }) => {
         // Buscar información sobre los equipos en el array de equipos
-        const homeTeam: Team = this.data.Teams.find((team: Team) => team.id === match.home);
-        const awayTeam: Team = this.data.Teams.find((team: Team) => team.id === match.away);
+        const homeTeam: Team = this.data.Teams.find((team: Team) => team.id === match.home) || { id: "", name: "Por Definir", image: "", alt: "" };
+        const awayTeam: Team = this.data.Teams.find((team: Team) => team.id === match.away) || { id: "", name: "Por Definir", image: "", alt: "" };
 
-        // Obtener resultados del partido de cada equipo
-        const result: MatchResult = this.getRealResult(homeTeam, awayTeam, Number(key));
+         // Obtener resultados del partido de cada equipo
+         let result: MatchResult;
+         if (homeTeam.id === "" || homeTeam.name === "Por Definir" || awayTeam.id === "" || awayTeam.name === "Por Definir") {
+           result = { home: null, away: null };
+         } else {
+           result = this.getRealResultA(homeTeam, awayTeam, Number(key));
+         }
 
         // Crear el MatchCard con la informacion de los equipos y el resultado
         const matchCard: MatchCard = {
@@ -132,7 +136,7 @@ export class Liga1FixtureComponent implements OnInit {
   }
 
   // Función para obtener el resultado real
-  getRealResult(teamHome: any, teamAway: any, gameNumber: number): MatchResult {
+  getRealResultA(teamHome: any, teamAway: any, gameNumber: number): MatchResult {
     const TeamH = teamHome.apertura.find((game: any) => game.game === gameNumber);
     const TeamA = teamAway.apertura.find((game: any) => game.game === gameNumber);
     return {
@@ -166,11 +170,16 @@ export class Liga1FixtureComponent implements OnInit {
       //Iteramos en cada llave dentro de round para asignar los resultados de cada partido
       round.forEach((match: { home: string; away: string }) => {
         // Buscar información sobre los equipos en el array de equipos
-        const homeTeam: Team = this.data.Teams.find((team: Team) => team.id === match.home);
-        const awayTeam: Team = this.data.Teams.find((team: Team) => team.id === match.away);
+        const homeTeam: Team = this.data.Teams.find((team: Team) => team.id === match.home) || { id: "", name: "Por Definir", image: "", alt: "" };
+        const awayTeam: Team = this.data.Teams.find((team: Team) => team.id === match.away) || { id: "", name: "Por Definir", image: "", alt: "" };
 
-        // Obtener resultados del partido de cada equipo
-        const result: MatchResult = this.getRealResultC(homeTeam, awayTeam, Number(key));
+         // Obtener resultados del partido de cada equipo
+         let result: MatchResult;
+         if (homeTeam.id === "" || homeTeam.name === "Por Definir" || awayTeam.id === "" || awayTeam.name === "Por Definir") {
+           result = { home: null, away: null };
+         } else {
+           result = this.getRealResultC(homeTeam, awayTeam, Number(key));
+         }
 
         // Crear el MatchCard con la informacion de los equipos y el resultado
         const matchCard: MatchCard = {

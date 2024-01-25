@@ -1,45 +1,43 @@
 <!-- Title -->
 <div class="container-fluid background content-block">
   <div class="row">
-    <div class="col"></div>
     <div class="col-10 title">
       <div class="row">
         <p class="arrow">HOME<i class="fas fa-chevron-right"></i>LIGA 2<i class="fas fa-chevron-right"></i><span>TÉCNICOS</span></p>
       </div>
       <h1><b>Técnicos</b></h1>
     </div>
-    <div class="col"></div>
   </div>
 </div>
 <!-- Description -->
 <div class="container-fluid bg-light content-block">
   <div class="row">
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Temporada</p>
       <b class="notes2">{{ data && data.Info ? data.Info.temporada : '' }}</b>
     </div>
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Equipos</p>
       <b class="notes2">{{ data && data.Info ? data.Info.equipos : '' }}</b>
     </div>
-    <div class="col-sm-4 col-md-3 text-center">
+    <div class="col-sm-4 col-md-3 text-center py-2">
       <p class="notes">Categoría</p>
       <p class="notes2"><b>2<sup>da</sup> División</b></p>
     </div>
     <div class="col-sm-12 col-md-3 description-image">
-      <img src="./assets/images/liga-2/liga2fpf.png" alt="liga2logo" height="70px;">
+      <img src="./assets/images/liga-2/liga2fpf.png" alt="liga2-logo">
     </div>
   </div>
 </div>
-<!-- Divisor -->
-<div class="container-fluid divisor-type-1 shadow-lg"></div>
+<!-- Divider -->
+<div class="container-fluid divider"></div>
 <!-- Table -->
-<div class="container-fluid my-5 content-block">
+<div class="table-content container-fluid content-block py-5">
   <div class="row">
     <div class="col-sm-12 col-md-10 col-lg-8 col-xl-7">
-      <!-- Tabla -->
       <div class="table-responsive">
-        <table class="table table align-middle">
+        <!-- Table -->
+        <table class="table align-middle">
           <thead class="table-header">
             <tr>
               <th scope="col"></th>
@@ -50,7 +48,7 @@
           </thead>
           <tbody *ngIf="data">
             <tr *ngFor="let item of dt">
-              <th class="manager-status"><div [ngClass]="{'manager-active': item.statusDT, 'manager-disable ': !item.statusDT}"></div></th>
+              <th class="manager-status"><div class="status" [ngClass]="{'manager-active': item.statusDT, 'manager-disable ': !item.statusDT}"></div></th>
               <td class="t-w-dt"><i class="fas fa-user-tie"></i> {{ item.nameDT }}</td>
               <td class="t-w-team"><img class="logos" src="{{ item.image }}" alt="{{ item.alt }}">&nbsp; {{ item.name }}</td>
               <td><span class="flag-icon flag-icon-{{item.codDT}} flag"></span>&nbsp;&nbsp; {{ item.countryDT }}</td>
@@ -63,11 +61,11 @@
       <div class="table-info">
         <h6 class="text-start"><b>Estado del Director Técnico</b></h6>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#d8b145"></i>
+          <i class="fas fa-square manager-active"></i>
           <span class="mx-2">Actual</span>
         </div>
         <div class="text-start">
-          <i class="fas fa-square square" style="color:#2c2c2c"></i>
+          <i class="fas fa-square manager-disable"></i>
           <span class="mx-2">Destituido</span>
         </div>
       </div>
