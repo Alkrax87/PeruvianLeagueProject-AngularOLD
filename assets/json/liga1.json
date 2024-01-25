@@ -29,12 +29,6 @@
           "country": "Argentina",
           "cod": "ar",
           "status" : true
-        },
-        {
-          "name": "Carlos Desio",
-          "country": "Argentina",
-          "cod": "ar",
-          "status" : false
         }
       ],
       "apertura": [
@@ -1514,13 +1508,13 @@
   "Finalistas": [
     {
       "status": false,
-      "name": "Por Definir",
+      "name": "",
       "image": "",
       "alt": ""
     },
     {
       "status": false,
-      "name": "Por Definir",
+      "name": "",
       "image": "",
       "alt": ""
     },
