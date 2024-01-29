@@ -69,19 +69,19 @@
               <th scope="col" class="t-w-lg">Últimos 5</th>
             </tr>
           </thead>
-          <tbody *ngIf="data">
-            <tr class="text-center" *ngFor="let item of data.Teams">
-              <th class="team-status"><div *ngIf="data.Teams.indexOf(item) == 0;" class="clasifier winner"></div></th>
-              <th>{{ 1 + data.Teams.indexOf(item) }}</th>
+          <tbody *ngIf="apertura">
+            <tr class="text-center" *ngFor="let item of apertura">
+              <th class="team-status"><div *ngIf="apertura.indexOf(item) == 0;" class="clasifier winner"></div></th>
+              <th>{{ 1 + apertura.indexOf(item) }}</th>
               <td class="text-start"><a href="{{ item.url }}"><img class="logos" src="{{ item.image }}" alt="{{ item.alt }}">&nbsp; {{ item.name }}</a></td>
-              <td class="fw-bold" id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
+              <td class="fw-bold">{{ item.data.apertura.puntos ? item.data.apertura.puntos : '0'}}</td>
+              <td>{{ item.data.apertura.pj ? item.data.apertura.pj  : '0'}}</td>
+              <td>{{ item.data.apertura.pg ? item.data.apertura.pg  : '0'}}</td>
+              <td>{{ item.data.apertura.pe ? item.data.apertura.pe  : '0'}}</td>
+              <td>{{ item.data.apertura.pp ? item.data.apertura.pp  : '0'}}</td>
+              <td>{{ item.data.apertura.gf ? item.data.apertura.gf  : '0'}}</td>
+              <td>{{ item.data.apertura.gc ? item.data.apertura.gc  : '0'}}</td>
+              <td>{{ item.data.apertura.dg ? item.data.apertura.dg  : '0'}}</td>
               <td>
                 <i class="fas fa-circle draw"></i>
                 <i class="fas fa-circle draw"></i>
@@ -126,19 +126,19 @@
               <th scope="col" class="t-w-lg">Últimos 5</th>
             </tr>
           </thead>
-          <tbody *ngIf="data">
-            <tr class="text-center" *ngFor="let item of data.Teams">
-              <th class="team-status"><div *ngIf="data.Teams.indexOf(item) == 0;" class="clasifier winner"></div></th>
-              <th>{{ 1 + data.Teams.indexOf(item) }}</th>
+          <tbody *ngIf="clausura">
+            <tr class="text-center" *ngFor="let item of clausura">
+              <th class="team-status"><div *ngIf="clausura.indexOf(item) == 0;" class="clasifier winner"></div></th>
+              <th>{{ 1 + clausura.indexOf(item) }}</th>
               <td class="text-start"><a href="{{ item.url }}"><img class="logos" src="{{ item.image }}" alt="{{ item.alt }}">&nbsp; {{ item.name }}</a></td>
-              <td class="fw-bold" id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
+              <td class="fw-bold">{{ item.data.clausura.puntos ? item.data.clausura.puntos : '0'}}</td>
+              <td>{{ item.data.clausura.pj ? item.data.clausura.pj  : '0'}}</td>
+              <td>{{ item.data.clausura.pg ? item.data.clausura.pg  : '0'}}</td>
+              <td>{{ item.data.clausura.pe ? item.data.clausura.pe  : '0'}}</td>
+              <td>{{ item.data.clausura.pp ? item.data.clausura.pp  : '0'}}</td>
+              <td>{{ item.data.clausura.gf ? item.data.clausura.gf  : '0'}}</td>
+              <td>{{ item.data.clausura.gc ? item.data.clausura.gc  : '0'}}</td>
+              <td>{{ item.data.clausura.dg ? item.data.clausura.dg  : '0'}}</td>
               <td>
                 <i class="fas fa-circle draw"></i>
                 <i class="fas fa-circle draw"></i>
@@ -188,14 +188,14 @@
               <th class="team-status"><div class="clasifier" [ngClass]="{'libertadores': data.Teams.indexOf(item) >= 0 && data.Teams.indexOf(item) <= 3, 'sudamericana': data.Teams.indexOf(item) >= 4 && data.Teams.indexOf(item) <= 6, 'relegation': data.Teams.indexOf(item) >= 16 && data.Teams.indexOf(item) <= 17}"></div></th>
               <th>{{ 1 + data.Teams.indexOf(item) }}</th>
               <td class="text-start"><a href="{{ item.url }}"><img class="logos" src="{{ item.image }}" alt="{{ item.alt }}">&nbsp; {{ item.name }}</a></td>
-              <td class="fw-bold" id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
-              <td id="">0</td>
+              <td class="fw-bold"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
               <td>
                 <i class="fas fa-circle draw"></i>
                 <i class="fas fa-circle draw"></i>
