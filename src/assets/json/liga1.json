@@ -4,7 +4,7 @@
     "equipos": 18,
     "apertura": true,
     "clausura": false,
-    "fechaApertura": "1",
+    "fechaApertura": "2",
     "fechaClausura": "1"
   },
   "Teams": [
@@ -32,11 +32,11 @@
           "gc": 6
         },
         "clausura": {
-          "pg": 3,
+          "pg": null,
           "pe": null,
           "pp": null,
-          "gf": 5,
-          "gc": 0
+          "gf": null,
+          "gc": null
         }
       },
       "dt": [
@@ -44,7 +44,7 @@
           "name": "Carlos Desio",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -122,7 +122,7 @@
           "name": "Luciano Theiler",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -200,7 +200,7 @@
           "name": "Alejandro Restrepo",
           "country": "Colombia",
           "cod": "co",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -278,7 +278,7 @@
           "name": "Ángel Comizzo",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -356,7 +356,7 @@
           "name": "Franco Navarro",
           "country": "Perú",
           "cod": "pe",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -415,11 +415,11 @@
       },
       "data": {
         "apertura": {
-          "pg": null,
+          "pg": 1,
           "pe": null,
           "pp": null,
-          "gf": null,
-          "gc": null
+          "gf": 2,
+          "gc": 1
         },
         "clausura": {
           "pg": null,
@@ -434,11 +434,11 @@
           "name": "Juan Carlos Bazalar",
           "country": "Perú",
           "cod": "pe",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
-        { "game": 1, "score": null },
+        { "game": 1, "score": 2 },
         { "game": 2, "score": null },
         { "game": 3, "score": null },
         { "game": 4, "score": null },
@@ -512,7 +512,7 @@
           "name": "Óscar Ibáñez",
           "country": "Perú",
           "cod": "pe",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -590,7 +590,7 @@
           "name": "Carlos Silvestri",
           "country": "Perú",
           "cod": "pe",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -650,10 +650,10 @@
       "data": {
         "apertura": {
           "pg": 1,
-          "pe": null,
+          "pe": 1,
           "pp": null,
-          "gf": 3,
-          "gc": 2
+          "gf": 4,
+          "gc": 3
         },
         "clausura": {
           "pg": null,
@@ -668,12 +668,12 @@
           "name": "Miguel Rondelli",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
         { "game": 1, "score": 3 },
-        { "game": 2, "score": null },
+        { "game": 2, "score": 1 },
         { "game": 3, "score": null },
         { "game": 4, "score": null },
         { "game": 5, "score": null },
@@ -746,7 +746,7 @@
           "name": "Gerardo Ameli",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -807,9 +807,9 @@
         "apertura": {
           "pg": null,
           "pe": null,
-          "pp": 1,
-          "gf": 2,
-          "gc": 3
+          "pp": 2,
+          "gf": 4,
+          "gc": 6
         },
         "clausura": {
           "pg": null,
@@ -824,12 +824,12 @@
           "name": "Pablo De Muner",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
         { "game": 1, "score": 2 },
-        { "game": 2, "score": null },
+        { "game": 2, "score": 2 },
         { "game": 3, "score": null },
         { "game": 4, "score": null },
         { "game": 5, "score": null },
@@ -902,7 +902,7 @@
           "name": "Fernando Gamboa",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -980,7 +980,7 @@
           "name": "Wilmar Valencia",
           "country": "Perú",
           "cod": "pe",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -1058,7 +1058,7 @@
           "name": "Ederson Moreira",
           "country": "Brazil",
           "cod": "br",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -1119,9 +1119,9 @@
         "apertura": {
           "pg": null,
           "pe": null,
-          "pp": null,
-          "gf": null,
-          "gc": null
+          "pp": 1,
+          "gf": 1,
+          "gc": 2
         },
         "clausura": {
           "pg": null,
@@ -1136,11 +1136,11 @@
           "name": "Néstor Craviotto",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
-        { "game": 1, "score": null },
+        { "game": 1, "score": 1 },
         { "game": 2, "score": null },
         { "game": 3, "score": null },
         { "game": 4, "score": null },
@@ -1195,11 +1195,11 @@
       },
       "data": {
         "apertura": {
-          "pg": null,
+          "pg": 1,
           "pe": null,
           "pp": 1,
-          "gf": 1,
-          "gc": 2
+          "gf": 4,
+          "gc": 4
         },
         "clausura": {
           "pg": null,
@@ -1214,12 +1214,12 @@
           "name": "Roberto Mosquera",
           "country": "Perú",
           "cod": "pe",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
         { "game": 1, "score": 1 },
-        { "game": 2, "score": null },
+        { "game": 2, "score": 3 },
         { "game": 3, "score": null },
         { "game": 4, "score": null },
         { "game": 5, "score": null },
@@ -1292,7 +1292,7 @@
           "name": "Fabian Bustos",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
@@ -1352,10 +1352,10 @@
       "data": {
         "apertura": {
           "pg": 1,
-          "pe": null,
+          "pe": 1,
           "pp": null,
-          "gf": 1,
-          "gc": null
+          "gf": 2,
+          "gc": 1
         },
         "clausura": {
           "pg": null,
@@ -1370,12 +1370,12 @@
           "name": "Carlos Ramacciotti",
           "country": "Argentina",
           "cod": "ar",
-          "status" : true
+          "status": true
         }
       ],
       "apertura": [
         { "game": 1, "score": 1 },
-        { "game": 2, "score": null },
+        { "game": 2, "score": 1 },
         { "game": 3, "score": null },
         { "game": 4, "score": null },
         { "game": 5, "score": null },
